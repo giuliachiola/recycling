@@ -1,15 +1,14 @@
 import Vue from 'vue'
 import Router from 'vue-router'
-import HelloWorld from '@/components/HelloWorld'
+
+// templates
+import templateHome from '@templates/templateHome'
 
 Vue.use(Router)
 
 export default new Router({
   routes: [
-    {
-      path: '/',
-      name: 'HelloWorld',
-      component: HelloWorld
-    }
+    { path: '/', name: 'TemplateHome', component: templateHome, meta: { title: 'Dove lo butto | Home' } }
+    // { path: '/', name: 'TemplateNewProduct', component: TemplateProducts, meta: { title: 'Hub Scuola DAM | Nuovo' } }
   ]
 })
