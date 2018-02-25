@@ -28,10 +28,6 @@ export default {
     layoutDrawer,
     searchGarbage,
     selectCity
-  },
-
-  created () {
-    this.$root.getCities()
   }
 }
 </script>

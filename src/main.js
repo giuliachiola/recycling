@@ -3,8 +3,7 @@
 import Vue from 'vue'
 import App from './App'
 import router from './router'
-
-import dovelobutto from './dovelobutto.js'
+import { store } from './store/store'
 
 import 'material-design-lite/dist/material.min.css'
 import 'material-design-lite/dist/material.min.js'
@@ -17,12 +16,12 @@ Vue.config.productionTip = false
 /* eslint-disable no-new */
 new Vue({
   el: '#app',
+  store,
   router,
   components: { App },
   template: '<App/>',
-  methods: {
-    getCities () {
-      dovelobutto.getCities()
-    }
+
+  created () {
+    this.$store.dispatch('getCities')
   }
 })
