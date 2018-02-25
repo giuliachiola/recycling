@@ -1,0 +1,44 @@
+{
+  "cities": [
+    {
+      "id": 1,
+      "name": "Condove",
+      "fileName": "condove"
+    },
+    {
+      "id": 2,
+      "name": "Avigliana",
+      "fileName": "avigliana"
+    },
+    {
+      "id": 3,
+      "name": "Sant'Ambrogio di Susa",
+      "fileName": "sant-ambrogio-di-susa"
+    },
+    {
+      "id": 4,
+      "name": "Torino",
+      "fileName": "torino"
+    },
+    {
+      "id": 5,
+      "name": "Pré-Saint-Didier",
+      "fileName": "pre-saint-didier"
+    },
+    {
+      "id": 6,
+      "name": "Noli",
+      "fileName": "noli"
+    },
+    {
+      "id": 7,
+      "name": "Spotorno",
+      "fileName": "spotorno"
+    },
+    {
+      "id": 8,
+      "name": "Alassio",
+      "fileName": "alassio"
+    }
+  ]
+}

@@ -1,16 +1,15 @@
 <template>
 
-<div class="demo-layout-waterfall mdl-layout mdl-js-layout">
+<div class="mdl-layout mdl-js-layout">
 
   <layoutHeader />
   <layoutDrawer />
 
-  <main class="mdl-layout__content">
-    <div class="page-content">
+  <main class="mdl-layout__content l-grid--centerX">
 
-      <searchBar />
+    <selectCity/>
+    <searchGarbage />
 
-    </div>
   </main>
 </div>
 </template>
@@ -18,7 +17,8 @@
 <script>
 import layoutHeader from '@layout/layoutHeader.vue'
 import layoutDrawer from '@layout/layoutDrawer.vue'
-import searchBar from '@elements/searchBar.vue'
+import searchGarbage from '@elements/searchGarbage.vue'
+import selectCity from '@elements/selectCity.vue'
 
 export default {
   name: 'TemplateHome',
@@ -26,11 +26,19 @@ export default {
   components: {
     layoutHeader,
     layoutDrawer,
-    searchBar
+    searchGarbage,
+    selectCity
+  },
+
+  created () {
+    this.$root.getCities()
   }
 }
 </script>
 
 <style lang="scss">
-
+  .l-grid--centerX {
+    display: grid;
+    justify-content: center;
+  }
 </style>

@@ -4,11 +4,13 @@ import Vue from 'vue'
 import App from './App'
 import router from './router'
 
-// import MaterialDesignLite from 'material-design-lite'
+import dovelobutto from './dovelobutto.js'
+
 import 'material-design-lite/dist/material.min.css'
 import 'material-design-lite/dist/material.min.js'
-
-// Vue.use(MaterialDesignLite)
+// material design di default NON ha il componente <select> in style mdl quindi uso:
+import 'mdl-select-component/mdl-selectfield.min.css'
+import 'mdl-select-component/mdl-selectfield.min.js'
 
 Vue.config.productionTip = false
 
@@ -17,5 +19,10 @@ new Vue({
   el: '#app',
   router,
   components: { App },
-  template: '<App/>'
+  template: '<App/>',
+  methods: {
+    getCities () {
+      dovelobutto.getCities()
+    }
+  }
 })

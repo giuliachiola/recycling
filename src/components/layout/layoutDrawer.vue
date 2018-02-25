@@ -40,7 +40,15 @@ export default {
         },
         {
           linkTo: '#',
+          linkText: 'Tetrapack'
+        },
+        {
+          linkTo: '#',
           linkText: 'Organico'
+        },
+        {
+          linkTo: '#',
+          linkText: 'Sfalci e potature'
         },
         {
           linkTo: '#',
