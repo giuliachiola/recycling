@@ -22,6 +22,6 @@ new Vue({
   template: '<App/>',
 
   created () {
-    this.$store.dispatch('getCities')
+    this.$store.dispatch('getProvinces')
   }
 })

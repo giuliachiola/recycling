@@ -1,10 +1,24 @@
 <template>
-  <div class="mdl-selectfield mdl-js-selectfield">
-      <select id="myselect" name="myselect" class="mdl-selectfield__select">
-        <option value=""></option>
-        <option v-for="city in citiesA" :key="city.id" :value="city.id">{{ city.name }}</option>
-      </select>
-    <label class="mdl-selectfield__label" for="myselect">Scegli il comune</label>
+  <div>
+    <!-- seleziona provincia -->
+    <div class="mdl-selectfield mdl-js-selectfield">
+        <select id="myselect" name="myselect" class="mdl-selectfield__select">
+          <option value=""></option>
+          <option v-for="province in provinces" :key="province.codice" :value="province.codice">{{ province.nome }}</option>
+        </select>
+      <label class="mdl-selectfield__label" for="myselect">Seleziona la provincia</label>
+    </div>
+
+    <button @click="getCities(100)">TAP ME</button>
+
+    <!-- seleziona comune -->
+    <div class="mdl-selectfield mdl-js-selectfield">
+        <select id="myselect" name="myselect" class="mdl-selectfield__select">
+          <option value=""></option>
+          <option v-for="city in cities" :key="city.id" :value="city.id">{{ city.nome }}</option>
+        </select>
+      <label class="mdl-selectfield__label" for="myselect">Scegli il comune</label>
+    </div>
   </div>
 </template>
 
@@ -24,15 +38,15 @@ export default {
   },
 
   computed: {
-    citiesA () {
-      // return dataCities.cities.filter(city => city.name)
-      console.log(this.cities)
-      return this.cities
-    },
-
     ...mapState([
-      'cities'
+      'provinces', 'cities'
     ])
+  },
+
+  methods: {
+    getCities (provinceId) {
+      this.$store.dispatch('getCities', provinceId)
+    },
   }
 }
 </script>
