@@ -3,6 +3,7 @@ import Vuex from 'vuex'
 
 // https://github.com/matteocontrini/comuni-json
 import dbCities from '@root/data/db-comuni.json'
+import dbGarbageDefault from '@root/data/db-garbage-default.json'
 
 Vue.use(Vuex)
 
@@ -11,7 +12,8 @@ export const store = new Vuex.Store({
 
   state: {
     provinces: [],
-    cities: []
+    cities: [],
+    garbage: []
   },
 
   actions: {
@@ -39,11 +41,7 @@ export const store = new Vuex.Store({
 
     getCities: function ({ commit, state }, provinceId) {
       let citiesArr = []
-      citiesArr = dbCities.filter(city => {
-        if (city.provincia.codice === provinceId) {
-          return city
-        }
-      })
+      citiesArr = dbCities.filter(city => city.provincia.codice === provinceId)
 
       citiesArr = citiesArr.map((city, index) => {
         city = (({ nome, cap, provincia }) => ({ nome, cap, provincia }))(city) // lasciare in italiano come nel JSON scaricato
@@ -52,6 +50,10 @@ export const store = new Vuex.Store({
       })
 
       commit('setCities', citiesArr)
+    },
+
+    getGarbageDefault: function ({ commit, state }) {
+      commit('setGarbage', dbGarbageDefault.garbage)
     }
   },
 
@@ -62,6 +64,10 @@ export const store = new Vuex.Store({
 
     setCities: (state, cities) => {
       state.cities = cities
+    },
+
+    setGarbage: (state, garbage) => {
+      state.garbage = garbage
     }
   },
 

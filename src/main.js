@@ -23,5 +23,6 @@ new Vue({
 
   created () {
     this.$store.dispatch('getProvinces')
+    this.$store.dispatch('getGarbageDefault')
   }
 })

@@ -1,0 +1,1634 @@
+{
+  "place": "default",
+  "bins": [
+    {
+      "id": 1,
+      "name": "Carta",
+      "color": "#9E9E9E",
+      "mainContent": "Carta, cartone, cartoncino",
+      "content-ok": "imballaggi di carta, cartone e cartoncino (scatole, buste, ecc.) , fogli, giornali, riviste, quaderni non plastificati, depliant, volantini, manifesti non plastificati cartoni per bevande in tetra pak",
+      "content-ko": "non buttare la carta unta o bagnata",
+      "src": "default-bin-1.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Plastica",
+      "color": "#FFEB3B",
+      "mainContent": "Imballaggi in plastica, metallo",
+      "content-ok": "bottiglie, vasetti e barattoli di plastica, buste e sacchetti di plastica, piatti e bicchieri di plastica usa e getta, lattine per bevande, vaschette e fogli in alluminio, scatolame di metallo per alimenti, tappi di plastica e di metallo, bombolette spray, gusci e barre di polistirolo",
+      "content-ko": "roba che spesso si sbaglia a buttare",
+      "src": "default-bin-2.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Vetro",
+      "color": "#FFEB3B",
+      "mainContent": "Imballaggi in plastica, metallo",
+      "content-ok": "bottiglie, vasetti e barattoli di plastica, buste e sacchetti di plastica, piatti e bicchieri di plastica usa e getta, lattine per bevande, vaschette e fogli in alluminio, scatolame di metallo per alimenti, tappi di plastica e di metallo, bombolette spray, gusci e barre di polistirolo",
+      "content-ko": "roba che spesso si sbaglia a buttare",
+      "src": "default-bin-2.jpg"
+    },
+    {
+      "id": 4,
+      "name": "Alluminio",
+      "color": "#FFEB3B",
+      "mainContent": "Imballaggi in plastica, metallo",
+      "content-ok": "bottiglie, vasetti e barattoli di plastica, buste e sacchetti di plastica, piatti e bicchieri di plastica usa e getta, lattine per bevande, vaschette e fogli in alluminio, scatolame di metallo per alimenti, tappi di plastica e di metallo, bombolette spray, gusci e barre di polistirolo",
+      "content-ko": "roba che spesso si sbaglia a buttare",
+      "src": "default-bin-2.jpg"
+    },
+    {
+      "id": 5,
+      "name": "Tetrapack",
+      "color": "#FFEB3B",
+      "mainContent": "Imballaggi in plastica, metallo",
+      "content-ok": "bottiglie, vasetti e barattoli di plastica, buste e sacchetti di plastica, piatti e bicchieri di plastica usa e getta, lattine per bevande, vaschette e fogli in alluminio, scatolame di metallo per alimenti, tappi di plastica e di metallo, bombolette spray, gusci e barre di polistirolo",
+      "content-ko": "roba che spesso si sbaglia a buttare",
+      "src": "default-bin-2.jpg"
+    },
+    {
+      "id": 6,
+      "name": "Organico",
+      "color": "#FFEB3B",
+      "mainContent": "Imballaggi in plastica, metallo",
+      "content-ok": "bottiglie, vasetti e barattoli di plastica, buste e sacchetti di plastica, piatti e bicchieri di plastica usa e getta, lattine per bevande, vaschette e fogli in alluminio, scatolame di metallo per alimenti, tappi di plastica e di metallo, bombolette spray, gusci e barre di polistirolo",
+      "content-ko": "roba che spesso si sbaglia a buttare",
+      "src": "default-bin-2.jpg"
+    },
+    {
+      "id": 7,
+      "name": "Sfalci e potature",
+      "color": "#FFEB3B",
+      "mainContent": "Imballaggi in plastica, metallo",
+      "content-ok": "bottiglie, vasetti e barattoli di plastica, buste e sacchetti di plastica, piatti e bicchieri di plastica usa e getta, lattine per bevande, vaschette e fogli in alluminio, scatolame di metallo per alimenti, tappi di plastica e di metallo, bombolette spray, gusci e barre di polistirolo",
+      "content-ko": "roba che spesso si sbaglia a buttare",
+      "src": "default-bin-2.jpg"
+    },
+    {
+      "id": 8,
+      "name": "Indifferenziato",
+      "color": "#FFEB3B",
+      "mainContent": "Imballaggi in plastica, metallo",
+      "content-ok": "bottiglie, vasetti e barattoli di plastica, buste e sacchetti di plastica, piatti e bicchieri di plastica usa e getta, lattine per bevande, vaschette e fogli in alluminio, scatolame di metallo per alimenti, tappi di plastica e di metallo, bombolette spray, gusci e barre di polistirolo",
+      "content-ko": "roba che spesso si sbaglia a buttare",
+      "src": "default-bin-2.jpg"
+    },
+    {
+      "id": 9,
+      "name": "Materiali RAEE",
+      "color": "#FFEB3B",
+      "mainContent": "Imballaggi in plastica, metallo",
+      "content-ok": "bottiglie, vasetti e barattoli di plastica, buste e sacchetti di plastica, piatti e bicchieri di plastica usa e getta, lattine per bevande, vaschette e fogli in alluminio, scatolame di metallo per alimenti, tappi di plastica e di metallo, bombolette spray, gusci e barre di polistirolo",
+      "content-ko": "roba che spesso si sbaglia a buttare",
+      "src": "default-bin-2.jpg"
+    }
+  ],
+  "garbage": [
+    {
+      "name": "Piatto di plastica usa e getta",
+      "binId": 2,
+      "binName": "2-plastica"
+    },
+    {
+      "name": "Polistirolo da imballaggio",
+      "binId": 2,
+      "binName": "2-plastica"
+    },
+    {
+      "name": "Piatto di plastica usa e getta",
+      "binId": 2,
+      "binName": "2-plastica"
+    },
+    {
+      "name": "Polistirolo da imballaggio",
+      "binId": 2,
+      "binName": "2-plastica"
+    },
+    {
+      "name": "Cassette da frutta in legno",
+      "binId": 2,
+      "binName": "2-plastica"
+    },
+    {
+      "name": "Apparecchi elettronici (televisore, computer, stereo, radio, etc.)",
+      "binId": 2,
+      "binName": "2-plastica"
+    },
+    {
+      "name": "Cartone della pizza (pulito)",
+      "binId": 2,
+      "binName": "2-plastica"
+    },
+    {
+      "name": "Tovaglioli di carta sporchi",
+      "binId": 2,
+      "binName": "2-plastica"
+    },
+    {
+      "name": "Sfalci da giardini/prato/potature",
+      "binId": 2,
+      "binName": "2-plastica"
+    },
+    {
+      "name": "Calcinacci",
+      "binId": 2,
+      "binName": "2-plastica"
+    },
+    {
+      "name": "Piatto in ceramica e in porcellana",
+      "binId": 2,
+      "binName": "2-plastica"
+    },
+    {
+      "name": "Pentole e padelle",
+      "binId": 2,
+      "binName": "2-plastica"
+    },
+    {
+      "name": "Accendini",
+      "binId": 2,
+      "binName": "2-plastica"
+    },
+    {
+      "name": "Acciaio",
+      "binId": 2,
+      "binName": "2-plastica"
+    },
+    {
+      "name": "Acciaio (piccole quantità)",
+      "binId": 2,
+      "binName": "2-plastica"
+    },
+    {
+      "name": "Acquari",
+      "binId": 2,
+      "binName": "2-plastica"
+    },
+    {
+      "name": "Agende in carta e/o cartoncino",
+      "binId": 2,
+      "binName": "2-plastica"
+    },
+    {
+      "name": "Alimenti",
+      "binId": 2,
+      "binName": "2-plastica"
+    },
+    {
+      "name": "Alimenti scaduti (privi di contenitori)",
+      "binId": 2,
+      "binName": "2-plastica"
+    },
+    {
+      "name": "Alluminio",
+      "binId": 2,
+      "binName": "2-plastica"
+    },
+    {
+      "name": "Amianto",
+      "binId": 2,
+      "binName": "2-plastica"
+    },
+    {
+      "name": "Antenna/Parabola",
+      "binId": 2,
+      "binName": "2-plastica"
+    },
+    {
+      "name": "Apparecchi elettronici (televisore, computer, stereo, radio, etc.)",
+      "binId": 2,
+      "binName": "2-plastica"
+    },
+    {
+      "name": "Apriscatole",
+      "binId": 2,
+      "binName": "2-plastica"
+    },
+    {
+      "name": "Armadi e ante di mobili",
+      "binId": 2,
+      "binName": "2-plastica"
+    },
+    {
+      "name": "Asciugacapelli",
+      "binId": 2,
+      "binName": "2-plastica"
+    },
+    {
+      "name": "Aspirapolvere",
+      "binId": 2,
+      "binName": "2-plastica"
+    },
+    {
+      "name": "Assorbenti igienici",
+      "binId": 2,
+      "binName": "2-plastica"
+    },
+    {
+      "name": "Avanzi di cibo",
+      "binId": 2,
+      "binName": "2-plastica"
+    },
+    {
+      "name": "Bacinelle",
+      "binId": 2,
+      "binName": "2-plastica"
+    },
+    {
+      "name": "Barattoli in vetro",
+      "binId": 2,
+      "binName": "2-plastica"
+    },
+    {
+      "name": "Barattoli plastica metallo",
+      "binId": 2,
+      "binName": "2-plastica"
+    },
+    {
+      "name": "Bastoncini per orecchie",
+      "binId": 2,
+      "binName": "2-plastica"
+    },
+    {
+      "name": "Batterie automobili",
+      "binId": 2,
+      "binName": "2-plastica"
+    },
+    {
+      "name": "Batterie cellulare",
+      "binId": 2,
+      "binName": "2-plastica"
+    },
+    {
+      "name": "Batuffoli di cotone",
+      "binId": 2,
+      "binName": "2-plastica"
+    },
+    {
+      "name": "Bicchiere di cristallo",
+      "binId": 2,
+      "binName": "2-plastica"
+    },
+    {
+      "name": "Bicchiere di plastica usa e getta",
+      "binId": 2,
+      "binName": "2-plastica"
+    },
+    {
+      "name": "Bicchieri di cristallo",
+      "binId": 2,
+      "binName": "2-plastica"
+    },
+    {
+      "name": "Bicchieri di plastica usa e getta",
+      "binId": 2,
+      "binName": "2-plastica"
+    },
+    {
+      "name": "Bicicletta",
+      "binId": 2,
+      "binName": "2-plastica"
+    },
+    {
+      "name": "Bigiotteria",
+      "binId": 2,
+      "binName": "2-plastica"
+    },
+    {
+      "name": "Biglietti autobus (magnetici)",
+      "binId": 2,
+      "binName": "2-plastica"
+    },
+    {
+      "name": "Bilance ",
+      "binId": 2,
+      "binName": "2-plastica"
+    },
+    {
+      "name": "Biscotti",
+      "binId": 2,
+      "binName": "2-plastica"
+    },
+    {
+      "name": "Bombola del gas",
+      "binId": 2,
+      "binName": "2-plastica"
+    },
+    {
+      "name": "Bombolette spray alimenti, cosmetici",
+      "binId": 2,
+      "binName": "2-plastica"
+    },
+    {
+      "name": "Bombolette spray etichettate T e/o F",
+      "binId": 2,
+      "binName": "2-plastica"
+    },
+    {
+      "name": "Bottiglia di plastica e flaconi",
+      "binId": 2,
+      "binName": "2-plastica"
+    },
+    {
+      "name": "Bottiglia di vetro senza tappo",
+      "binId": 2,
+      "binName": "2-plastica"
+    },
+    {
+      "name": "Bottiglie di plastica e flaconi",
+      "binId": 2,
+      "binName": "2-plastica"
+    },
+    {
+      "name": "Bottiglie di vetro senza tappo",
+      "binId": 2,
+      "binName": "2-plastica"
+    },
+    {
+      "name": "Bottoni",
+      "binId": 2,
+      "binName": "2-plastica"
+    },
+    {
+      "name": "Brick del latte o dei succhi di frutta",
+      "binId": 2,
+      "binName": "2-plastica"
+    },
+    {
+      "name": "Bucce di frutta",
+      "binId": 2,
+      "binName": "2-plastica"
+    },
+    {
+      "name": "Bulloneria (viti, chiodi)",
+      "binId": 2,
+      "binName": "2-plastica"
+    },
+    {
+      "name": "Busta di plastica",
+      "binId": 2,
+      "binName": "2-plastica"
+    },
+    {
+      "name": "Buste dei surgelati (pulite)",
+      "binId": 2,
+      "binName": "2-plastica"
+    },
+    {
+      "name": "Buste di carta",
+      "binId": 2,
+      "binName": "2-plastica"
+    },
+    {
+      "name": "Buste di nylon",
+      "binId": 2,
+      "binName": "2-plastica"
+    },
+    {
+      "name": "Buste di plastica",
+      "binId": 2,
+      "binName": "2-plastica"
+    },
+    {
+      "name": "Buste per alimenti",
+      "binId": 2,
+      "binName": "2-plastica"
+    },
+    {
+      "name": "Caffè",
+      "binId": 2,
+      "binName": "2-plastica"
+    },
+    {
+      "name": "Calamita",
+      "binId": 2,
+      "binName": "2-plastica"
+    },
+    {
+      "name": "Calcinacci",
+      "binId": 2,
+      "binName": "2-plastica"
+    },
+    {
+      "name": "Capelli",
+      "binId": 2,
+      "binName": "2-plastica"
+    },
+    {
+      "name": "Carne",
+      "binId": 2,
+      "binName": "2-plastica"
+    },
+    {
+      "name": "Carrozzine e passeggini",
+      "binId": 2,
+      "binName": "2-plastica"
+    },
+    {
+      "name": "Carta",
+      "binId": 2,
+      "binName": "2-plastica"
+    },
+    {
+      "name": "Carta assorbente per cucina",
+      "binId": 2,
+      "binName": "2-plastica"
+    },
+    {
+      "name": "Carta chimica, carta per fax, carta copiativa",
+      "binId": 2,
+      "binName": "2-plastica"
+    },
+    {
+      "name": "Carta da forno",
+      "binId": 2,
+      "binName": "2-plastica"
+    },
+    {
+      "name": "Carta da pacchi",
+      "binId": 2,
+      "binName": "2-plastica"
+    },
+    {
+      "name": "Carta e cartoni sporchi di cibo",
+      "binId": 2,
+      "binName": "2-plastica"
+    },
+    {
+      "name": "Carta lucida da disegno",
+      "binId": 2,
+      "binName": "2-plastica"
+    },
+    {
+      "name": "Carta plastificata",
+      "binId": 2,
+      "binName": "2-plastica"
+    },
+    {
+      "name": "Carta plastificata per alimenti (carne, formaggi o affettati)",
+      "binId": 2,
+      "binName": "2-plastica"
+    },
+    {
+      "name": "Carta sporca",
+      "binId": 2,
+      "binName": "2-plastica"
+    },
+    {
+      "name": "Carta stagnola",
+      "binId": 2,
+      "binName": "2-plastica"
+    },
+    {
+      "name": "Carta velina",
+      "binId": 2,
+      "binName": "2-plastica"
+    },
+    {
+      "name": "Cartone della pizza (pulito)",
+      "binId": 2,
+      "binName": "2-plastica"
+    },
+    {
+      "name": "Cartone e cartoncino",
+      "binId": 2,
+      "binName": "2-plastica"
+    },
+    {
+      "name": "Cartone per bevande (es. in tetra pak)",
+      "binId": 2,
+      "binName": "2-plastica"
+    },
+    {
+      "name": "Cartoni ondulati",
+      "binId": 2,
+      "binName": "2-plastica"
+    },
+    {
+      "name": "Cartucce per stampanti",
+      "binId": 2,
+      "binName": "2-plastica"
+    },
+    {
+      "name": "Caschi per moto e scooter",
+      "binId": 2,
+      "binName": "2-plastica"
+    },
+    {
+      "name": "Casco per moto o bicicletta",
+      "binId": 2,
+      "binName": "2-plastica"
+    },
+    {
+      "name": "Cassette audio e video",
+      "binId": 2,
+      "binName": "2-plastica"
+    },
+    {
+      "name": "Cassette audio e video in grande quantità",
+      "binId": 2,
+      "binName": "2-plastica"
+    },
+    {
+      "name": "Cassette da frutta in cartone (a pezzi)",
+      "binId": 2,
+      "binName": "2-plastica"
+    },
+    {
+      "name": "Cassette da frutta in legno",
+      "binId": 2,
+      "binName": "2-plastica"
+    },
+    {
+      "name": "Cassette da frutta in plastica",
+      "binId": 2,
+      "binName": "2-plastica"
+    },
+    {
+      "name": "Cassette sporche, unte",
+      "binId": 2,
+      "binName": "2-plastica"
+    },
+    {
+      "name": "Cassetti",
+      "binId": 2,
+      "binName": "2-plastica"
+    },
+    {
+      "name": "Cavi (grandi quantità)",
+      "binId": 2,
+      "binName": "2-plastica"
+    },
+    {
+      "name": "Cavi elettrici",
+      "binId": 2,
+      "binName": "2-plastica"
+    },
+    {
+      "name": "CD (grandi quantità)",
+      "binId": 2,
+      "binName": "2-plastica"
+    },
+    {
+      "name": "CD (inclusa custodia in plastica rigida)",
+      "binId": 2,
+      "binName": "2-plastica"
+    },
+    {
+      "name": "Cellulari",
+      "binId": 2,
+      "binName": "2-plastica"
+    },
+    {
+      "name": "Cenere del caminetto",
+      "binId": 2,
+      "binName": "2-plastica"
+    },
+    {
+      "name": "Cenere e cicche di sigaretta",
+      "binId": 2,
+      "binName": "2-plastica"
+    },
+    {
+      "name": "Ceramica in cocci (piccole quantità )",
+      "binId": 2,
+      "binName": "2-plastica"
+    },
+    {
+      "name": "Cerotti",
+      "binId": 2,
+      "binName": "2-plastica"
+    },
+    {
+      "name": "Chiavi",
+      "binId": 2,
+      "binName": "2-plastica"
+    },
+    {
+      "name": "Cialde di caffè",
+      "binId": 2,
+      "binName": "2-plastica"
+    },
+    {
+      "name": "Cibo (avanzi sia crudi che cotti)",
+      "binId": 2,
+      "binName": "2-plastica"
+    },
+    {
+      "name": "Colla (grandi quantità )",
+      "binId": 2,
+      "binName": "2-plastica"
+    },
+    {
+      "name": "Collant e calze",
+      "binId": 2,
+      "binName": "2-plastica"
+    },
+    {
+      "name": "Computer e componenti (mouse...)",
+      "binId": 2,
+      "binName": "2-plastica"
+    },
+    {
+      "name": "Condizionatori d'aria",
+      "binId": 2,
+      "binName": "2-plastica"
+    },
+    {
+      "name": "Confezione del latte o dei succhi di frutta",
+      "binId": 2,
+      "binName": "2-plastica"
+    },
+    {
+      "name": "Confezione di lenti a contatto usa e getta vuota",
+      "binId": 2,
+      "binName": "2-plastica"
+    },
+    {
+      "name": "Confezione in cartone delle uova    ",
+      "binId": 2,
+      "binName": "2-plastica"
+    },
+    {
+      "name": "Confezione in plastica delle uova    ",
+      "binId": 2,
+      "binName": "2-plastica"
+    },
+    {
+      "name": "Confezioni di caffè",
+      "binId": 2,
+      "binName": "2-plastica"
+    },
+    {
+      "name": "Confezioni in carta (pasta, sale...)",
+      "binId": 2,
+      "binName": "2-plastica"
+    },
+    {
+      "name": "Confezioni in plastica di pastiglie vuote",
+      "binId": 2,
+      "binName": "2-plastica"
+    },
+    {
+      "name": "Contenitori di prodotti per l'igiene personale",
+      "binId": 2,
+      "binName": "2-plastica"
+    },
+    {
+      "name": "Contenitori etichettati T e/o F",
+      "binId": 2,
+      "binName": "2-plastica"
+    },
+    {
+      "name": "Contenitori in plastica dei detersivi",
+      "binId": 2,
+      "binName": "2-plastica"
+    },
+    {
+      "name": "Contenitori yogurt ",
+      "binId": 2,
+      "binName": "2-plastica"
+    },
+    {
+      "name": "Coperchi dei barattoli per alimenti",
+      "binId": 2,
+      "binName": "2-plastica"
+    },
+    {
+      "name": "Coperchi vasetti yogurt in carta stagnata",
+      "binId": 2,
+      "binName": "2-plastica"
+    },
+    {
+      "name": "Cordless",
+      "binId": 2,
+      "binName": "2-plastica"
+    },
+    {
+      "name": "Cornici",
+      "binId": 2,
+      "binName": "2-plastica"
+    },
+    {
+      "name": "Cosmetici",
+      "binId": 2,
+      "binName": "2-plastica"
+    },
+    {
+      "name": "Credenze",
+      "binId": 2,
+      "binName": "2-plastica"
+    },
+    {
+      "name": "Cristallo (bicchieri, caraffe e oggetti vari)",
+      "binId": 2,
+      "binName": "2-plastica"
+    },
+    {
+      "name": "Cristallo (in grandi quantità )",
+      "binId": 2,
+      "binName": "2-plastica"
+    },
+    {
+      "name": "Cristallo (in piccole quantità )",
+      "binId": 2,
+      "binName": "2-plastica"
+    },
+    {
+      "name": "Damigiane in vetro",
+      "binId": 2,
+      "binName": "2-plastica"
+    },
+    {
+      "name": "Depliant in carta (non plastificata)",
+      "binId": 2,
+      "binName": "2-plastica"
+    },
+    {
+      "name": "Divani",
+      "binId": 2,
+      "binName": "2-plastica"
+    },
+    {
+      "name": "DVD (grandi quantità )",
+      "binId": 2,
+      "binName": "2-plastica"
+    },
+    {
+      "name": "DVD (inclusa custodia in plastica rigida)",
+      "binId": 2,
+      "binName": "2-plastica"
+    },
+    {
+      "name": "Elettrodomestici grandi",
+      "binId": 2,
+      "binName": "2-plastica"
+    },
+    {
+      "name": "Elettrodomestici piccoli",
+      "binId": 2,
+      "binName": "2-plastica"
+    },
+    {
+      "name": "Escrementi animali",
+      "binId": 2,
+      "binName": "2-plastica"
+    },
+  {
+    "name": "Eternit",
+    "binId": 2,
+    "binName": "2-plastica"
+  },
+  {
+    "name": "Faldoni in cartone (senza anelli)",
+    "binId": 2,
+    "binName": "2-plastica"
+  },
+  {
+    "name": "Farmaci scaduti",
+    "binId": 2,
+    "binName": "2-plastica"
+  },
+  {
+    "name": "Fasciatoio",
+    "binId": 2,
+    "binName": "2-plastica"
+  },
+  {
+    "name": "Ferro da stiro",
+    "binId": 2,
+    "binName": "2-plastica"
+  },
+  {
+    "name": "Fiasco di vetro (senza rivestimento)",
+    "binId": 2,
+    "binName": "2-plastica"
+  },
+  {
+    "name": "Fili elettrici",
+    "binId": 2,
+    "binName": "2-plastica"
+  },
+  {
+    "name": "Flaconi di detersivi in plastica",
+    "binId": 2,
+    "binName": "2-plastica"
+  },
+  {
+    "name": "Flaconi di sciroppo",
+    "binId": 2,
+    "binName": "2-plastica"
+  },
+  {
+    "name": "Flaconi di shampoo e bagnoschiuma",
+    "binId": 2,
+    "binName": "2-plastica"
+  },
+  {
+    "name": "Floppy disk",
+    "binId": 2,
+    "binName": "2-plastica"
+  },
+  {
+    "name": "Foglie e fiori",
+    "binId": 2,
+    "binName": "2-plastica"
+  },
+  {
+    "name": "Foglie, fiori, erba (grandi quantità )",
+    "binId": 2,
+    "binName": "2-plastica"
+  },
+  {
+    "name": "Fondi di té, caffé, camomilla",
+    "binId": 2,
+    "binName": "2-plastica"
+  },
+  {
+    "name": "Forbici (piccole quantità )",
+    "binId": 2,
+    "binName": "2-plastica"
+  },
+  {
+    "name": "Forchette di plastica",
+    "binId": 2,
+    "binName": "2-plastica"
+  },
+  {
+    "name": "Formaggi",
+    "binId": 2,
+    "binName": "2-plastica"
+  },
+  {
+    "name": "Formica",
+    "binId": 2,
+    "binName": "2-plastica"
+  },
+  {
+    "name": "Forni (elettrici, microonde)",
+    "binId": 2,
+    "binName": "2-plastica"
+  },
+  {
+    "name": "Fotografie e pellicole fotografiche",
+    "binId": 2,
+    "binName": "2-plastica"
+  },
+  {
+    "name": "Frigorifero",
+    "binId": 2,
+    "binName": "2-plastica"
+  },
+  {
+    "name": "Frutta",
+    "binId": 2,
+    "binName": "2-plastica"
+  },
+  {
+    "name": "Giocattoli (bambole, palloni, macchinine)",
+    "binId": 2,
+    "binName": "2-plastica"
+  },
+  {
+    "name": "Giocattoli grandi e/o elettrici",
+    "binId": 2,
+    "binName": "2-plastica"
+  },
+  {
+    "name": "Giornali e riviste",
+    "binId": 2,
+    "binName": "2-plastica"
+  },
+  {
+    "name": "Girelli e culle",
+    "binId": 2,
+    "binName": "2-plastica"
+  },
+  {
+    "name": "Gomma da masticare",
+    "binId": 2,
+    "binName": "2-plastica"
+  },
+  {
+    "name": "Gomma piuma",
+    "binId": 2,
+    "binName": "2-plastica"
+  },
+  {
+    "name": "Graffette e fermagli",
+    "binId": 2,
+    "binName": "2-plastica"
+  },
+  {
+    "name": "Guanti in lattice",
+    "binId": 2,
+    "binName": "2-plastica"
+  },
+  {
+    "name": "Gusci d'uovo",
+    "binId": 2,
+    "binName": "2-plastica"
+  },
+  {
+    "name": "Gusci di cozze e vongole",
+    "binId": 2,
+    "binName": "2-plastica"
+  },
+  {
+    "name": "Infissi",
+    "binId": 2,
+    "binName": "2-plastica"
+  },
+  {
+    "name": "Ingombranti (mobili, reti, materassi)",
+    "binId": 2,
+    "binName": "2-plastica"
+  },
+  {
+    "name": "Insetticidi (contenitori di)",
+    "binId": 2,
+    "binName": "2-plastica"
+  },
+  {
+    "name": "Lamette da barba",
+    "binId": 2,
+    "binName": "2-plastica"
+  },
+  {
+    "name": "Lampade al neon, alogene, fluorescenti",
+    "binId": 2,
+    "binName": "2-plastica"
+  },
+  {
+    "name": "Lampade e lampadari",
+    "binId": 2,
+    "binName": "2-plastica"
+  },
+  {
+    "name": "Lampadine a basso consumo",
+    "binId": 2,
+    "binName": "2-plastica"
+  },
+  {
+    "name": "Lampadine a incandescenza",
+    "binId": 2,
+    "binName": "2-plastica"
+  },
+  {
+    "name": "Lattine per bevande e per olio",
+    "binId": 2,
+    "binName": "2-plastica"
+  },
+  {
+    "name": "Lavatrice e lavastoviglie",
+    "binId": 2,
+    "binName": "2-plastica"
+  },
+  {
+    "name": "Legno da potatura",
+    "binId": 2,
+    "binName": "2-plastica"
+  },
+  {
+    "name": "Letti",
+    "binId": 2,
+    "binName": "2-plastica"
+  },
+  {
+    "name": "Lettiere di animale domestici",
+    "binId": 2,
+    "binName": "2-plastica"
+  },
+  {
+    "name": "Letto",
+    "binId": 2,
+    "binName": "2-plastica"
+  },
+  {
+    "name": "Librerie ",
+    "binId": 2,
+    "binName": "2-plastica"
+  },
+  {
+    "name": "Libri",
+    "binId": 2,
+    "binName": "2-plastica"
+  },
+  {
+    "name": "Lische di pesce",
+    "binId": 2,
+    "binName": "2-plastica"
+  },
+  {
+    "name": "Macchine fotografiche digitali ",
+    "binId": 2,
+    "binName": "2-plastica"
+  },
+  {
+    "name": "Materassi",
+    "binId": 2,
+    "binName": "2-plastica"
+  },
+  {
+    "name": "Matite",
+    "binId": 2,
+    "binName": "2-plastica"
+  },
+  {
+    "name": "Mattoni",
+    "binId": 2,
+    "binName": "2-plastica"
+  },
+  {
+    "name": "Medicinali",
+    "binId": 2,
+    "binName": "2-plastica"
+  },
+  {
+    "name": "Mensole e scaffali",
+    "binId": 2,
+    "binName": "2-plastica"
+  },
+  {
+    "name": "Mobili",
+    "binId": 2,
+    "binName": "2-plastica"
+  },
+  {
+    "name": "Mollette di plastica per il bucato",
+    "binId": 2,
+    "binName": "2-plastica"
+  },
+  {
+    "name": "Moquettes",
+    "binId": 2,
+    "binName": "2-plastica"
+  },
+  {
+    "name": "Mozziconi di sigarette e sigari",
+    "binId": 2,
+    "binName": "2-plastica"
+  },
+  {
+    "name": "Nastri (adesivi, da imballaggio)",
+    "binId": 2,
+    "binName": "2-plastica"
+  },
+  {
+    "name": "Neon",
+    "binId": 2,
+    "binName": "2-plastica"
+  },
+  {
+    "name": "Noccioli della frutta",
+    "binId": 2,
+    "binName": "2-plastica"
+  },
+  {
+    "name": "Occhiali",
+    "binId": 2,
+    "binName": "2-plastica"
+  },
+  {
+    "name": "Oli lubrificanti usati",
+    "binId": 2,
+    "binName": "2-plastica"
+  },
+  {
+    "name": "Olio vegetale per cottura alimenti",
+    "binId": 2,
+    "binName": "2-plastica"
+  },
+  {
+    "name": "Ombrelli",
+    "binId": 2,
+    "binName": "2-plastica"
+  },
+  {
+    "name": "Orologi da muro o da polso",
+    "binId": 2,
+    "binName": "2-plastica"
+  },
+  {
+    "name": "Ottone",
+    "binId": 2,
+    "binName": "2-plastica"
+  },
+  {
+    "name": "Ottone (piccole quantità )",
+    "binId": 2,
+    "binName": "2-plastica"
+  },
+  {
+    "name": "Ovatta",
+    "binId": 2,
+    "binName": "2-plastica"
+  },
+  {
+    "name": "Pacchetti di sigarette solo carta",
+    "binId": 2,
+    "binName": "2-plastica"
+  },
+  {
+    "name": "Pane",
+    "binId": 2,
+    "binName": "2-plastica"
+  },
+  {
+    "name": "Pannolini",
+    "binId": 2,
+    "binName": "2-plastica"
+  },
+  {
+    "name": "Pasta",
+    "binId": 2,
+    "binName": "2-plastica"
+  },
+  {
+    "name": "Peli",
+    "binId": 2,
+    "binName": "2-plastica"
+  },
+  {
+    "name": "Pellicole di cellophane",
+    "binId": 2,
+    "binName": "2-plastica"
+  },
+  {
+    "name": "Peluche",
+    "binId": 2,
+    "binName": "2-plastica"
+  },
+  {
+    "name": "Penne e pennarelli",
+    "binId": 2,
+    "binName": "2-plastica"
+  },
+  {
+    "name": "Pentole e padelle",
+    "binId": 2,
+    "binName": "2-plastica"
+  },
+  {
+    "name": "Persiane",
+    "binId": 2,
+    "binName": "2-plastica"
+  },
+  {
+    "name": "Pesce",
+    "binId": 2,
+    "binName": "2-plastica"
+  },
+  {
+    "name": "Phon",
+    "binId": 2,
+    "binName": "2-plastica"
+  },
+  {
+    "name": "Piatto di plastica usa e getta",
+    "binId": 2,
+    "binName": "2-plastica"
+  },
+  {
+    "name": "Piatto in ceramica e in porcellana",
+    "binId": 2,
+    "binName": "2-plastica"
+  },
+  {
+    "name": "Pile scariche",
+    "binId": 2,
+    "binName": "2-plastica"
+  },
+  {
+    "name": "Pneumatici/Gomme auto",
+    "binId": 2,
+    "binName": "2-plastica"
+  },
+  {
+    "name": "Polistirolo da imballaggio",
+    "binId": 2,
+    "binName": "2-plastica"
+  },
+  {
+    "name": "Poltrone",
+    "binId": 2,
+    "binName": "2-plastica"
+  },
+  {
+    "name": "Porte",
+    "binId": 2,
+    "binName": "2-plastica"
+  },
+  {
+    "name": "Posate di plastica usa e getta",
+    "binId": 2,
+    "binName": "2-plastica"
+  },
+  {
+    "name": "Potature di piante (piccole quantità )",
+    "binId": 2,
+    "binName": "2-plastica"
+  },
+  {
+    "name": "Profilattico",
+    "binId": 2,
+    "binName": "2-plastica"
+  },
+  {
+    "name": "Quaderni",
+    "binId": 2,
+    "binName": "2-plastica"
+  },
+  {
+    "name": "Radiografie/Lastre",
+    "binId": 2,
+    "binName": "2-plastica"
+  },
+  {
+    "name": "Ramaglie e residui da giardino",
+    "binId": 2,
+    "binName": "2-plastica"
+  },
+  {
+    "name": "Rami (grandi quantità)",
+    "binId": 2,
+    "binName": "2-plastica"
+  },
+  {
+    "name": "Rasoi",
+    "binId": 2,
+    "binName": "2-plastica"
+  },
+  {
+    "name": "Rasoi elettrici ",
+    "binId": 2,
+    "binName": "2-plastica"
+  },
+  {
+    "name": "Rete da letto",
+    "binId": 2,
+    "binName": "2-plastica"
+  },
+  {
+    "name": "Retina frutta ",
+    "binId": 2,
+    "binName": "2-plastica"
+  },
+  {
+    "name": "Riviste",
+    "binId": 2,
+    "binName": "2-plastica"
+  },
+  {
+    "name": "Rubinetteria",
+    "binId": 2,
+    "binName": "2-plastica"
+  },
+  {
+    "name": "Ruote auto",
+    "binId": 2,
+    "binName": "2-plastica"
+  },
+  {
+    "name": "Ruote della bicicletta",
+    "binId": 2,
+    "binName": "2-plastica"
+  },
+  {
+    "name": "Sacchetti dell'aspirapolvere",
+    "binId": 2,
+    "binName": "2-plastica"
+  },
+  {
+    "name": "Sacchetti di plastica",
+    "binId": 2,
+    "binName": "2-plastica"
+  },
+  {
+    "name": "Sacchetti in MATER-BI (compostabile)",
+    "binId": 2,
+    "binName": "2-plastica"
+  },
+  {
+    "name": "Sacchetti in materiale biodegradabile",
+    "binId": 2,
+    "binName": "2-plastica"
+  },
+  {
+    "name": "Sacchetti, buste e tabulati di carta",
+    "binId": 2,
+    "binName": "2-plastica"
+  },
+  {
+    "name": "Sanitari (lavabi, bidet, etc.)",
+    "binId": 2,
+    "binName": "2-plastica"
+  },
+  {
+    "name": "Scaffali",
+    "binId": 2,
+    "binName": "2-plastica"
+  },
+  {
+    "name": "Scarti di cibo (crudi o cotti)",
+    "binId": 2,
+    "binName": "2-plastica"
+  },
+  {
+    "name": "Scatole di cartone e di cartoncino",
+    "binId": 2,
+    "binName": "2-plastica"
+  },
+  {
+    "name": "Scatolette di pomodoro, tonno, etc.",
+    "binId": 2,
+    "binName": "2-plastica"
+  },
+  {
+    "name": "Schede telefoniche e magnetiche",
+    "binId": 2,
+    "binName": "2-plastica"
+  },
+  {
+    "name": "Sci",
+    "binId": 2,
+    "binName": "2-plastica"
+  },
+  {
+    "name": "Scontrini fiscali",
+    "binId": 2,
+    "binName": "2-plastica"
+  },
+  {
+    "name": "Sedie",
+    "binId": 2,
+    "binName": "2-plastica"
+  },
+  {
+    "name": "Segatura",
+    "binId": 2,
+    "binName": "2-plastica"
+  },
+  {
+    "name": "Sfalci da giardini/prato/potature",
+    "binId": 2,
+    "binName": "2-plastica"
+  },
+  {
+    "name": "Siringhe (con ago ben ricoperto)",
+    "binId": 2,
+    "binName": "2-plastica"
+  },
+  {
+    "name": "Smacchiatori e solventi",
+    "binId": 2,
+    "binName": "2-plastica"
+  },
+  {
+    "name": "Spazzola per capelli",
+    "binId": 2,
+    "binName": "2-plastica"
+  },
+  {
+    "name": "Spazzolino da denti",
+    "binId": 2,
+    "binName": "2-plastica"
+  },
+  {
+    "name": "Specchi",
+    "binId": 2,
+    "binName": "2-plastica"
+  },
+  {
+    "name": "Spillatrice",
+    "binId": 2,
+    "binName": "2-plastica"
+  },
+  {
+    "name": "Spugna",
+    "binId": 2,
+    "binName": "2-plastica"
+  },
+  {
+    "name": "Stampanti",
+    "binId": 2,
+    "binName": "2-plastica"
+  },
+  {
+    "name": "Stampelle appendiabiti",
+    "binId": 2,
+    "binName": "2-plastica"
+  },
+  {
+    "name": "Stracci sporchi",
+    "binId": 2,
+    "binName": "2-plastica"
+  },
+  {
+    "name": "Stucchi",
+    "binId": 2,
+    "binName": "2-plastica"
+  },
+  {
+    "name": "Stufe",
+    "binId": 2,
+    "binName": "2-plastica"
+  },
+  {
+    "name": "Stuzzicadenti",
+    "binId": 2,
+    "binName": "2-plastica"
+  },
+  {
+    "name": "Tamponi per timbri",
+    "binId": 2,
+    "binName": "2-plastica"
+  },
+  {
+    "name": "Tappetino della doccia",
+    "binId": 2,
+    "binName": "2-plastica"
+  },
+  {
+    "name": "Tappi in metallo, in plastica",
+    "binId": 2,
+    "binName": "2-plastica"
+  },
+  {
+    "name": "Tappi in sughero",
+    "binId": 2,
+    "binName": "2-plastica"
+  },
+  {
+    "name": "Tavoli",
+    "binId": 2,
+    "binName": "2-plastica"
+  },
+  {
+    "name": "Tazzine in ceramica e porcellana",
+    "binId": 2,
+    "binName": "2-plastica"
+  },
+  {
+    "name": "Té e tisane",
+    "binId": 2,
+    "binName": "2-plastica"
+  },
+  {
+    "name": "Telecomando",
+    "binId": 2,
+    "binName": "2-plastica"
+  },
+  {
+    "name": "Telefonini",
+    "binId": 2,
+    "binName": "2-plastica"
+  },
+  {
+    "name": "Telefono",
+    "binId": 2,
+    "binName": "2-plastica"
+  },
+  {
+    "name": "Televisori",
+    "binId": 2,
+    "binName": "2-plastica"
+  },
+  {
+    "name": "Tende da esterno e ombrelloni",
+    "binId": 2,
+    "binName": "2-plastica"
+  },
+  {
+    "name": "Termosifoni",
+    "binId": 2,
+    "binName": "2-plastica"
+  },
+  {
+    "name": "Terra (in piccole quantità )",
+    "binId": 2,
+    "binName": "2-plastica"
+  },
+  {
+    "name": "Tetra pak",
+    "binId": 2,
+    "binName": "2-plastica"
+  },
+  {
+    "name": "Toner, cartucce stampanti e fotocopiatrici",
+    "binId": 2,
+    "binName": "2-plastica"
+  },
+  {
+    "name": "Torsoli di frutta",
+    "binId": 2,
+    "binName": "2-plastica"
+  },
+  {
+    "name": "Tovaglioli di carta sporchi",
+    "binId": 2,
+    "binName": "2-plastica"
+  },
+  {
+    "name": "Tubetto di dentifricio vuoto",
+    "binId": 2,
+    "binName": "2-plastica"
+  },
+  {
+    "name": "Uova",
+    "binId": 2,
+    "binName": "2-plastica"
+  },
+  {
+    "name": "Utensileria piccola (cacciavite, pinza, etc.)",
+    "binId": 2,
+    "binName": "2-plastica"
+  },
+  {
+    "name": "Valigia",
+    "binId": 2,
+    "binName": "2-plastica"
+  },
+  {
+    "name": "Vasche da bagno e box doccia",
+    "binId": 2,
+    "binName": "2-plastica"
+  },
+  {
+    "name": "Vaschette gelato",
+    "binId": 2,
+    "binName": "2-plastica"
+  },
+  {
+    "name": "Vaschette in vetro per alimenti",
+    "binId": 2,
+    "binName": "2-plastica"
+  },
+  {
+    "name": "Vaschette per alimenti",
+    "binId": 2,
+    "binName": "2-plastica"
+  },
+  {
+    "name": "Vasetti dello yogurt",
+    "binId": 2,
+    "binName": "2-plastica"
+  },
+  {
+    "name": "Vasetti di vetro",
+    "binId": 2,
+    "binName": "2-plastica"
+  },
+  {
+    "name": "Vaso in cemento",
+    "binId": 2,
+    "binName": "2-plastica"
+  },
+  {
+    "name": "Ventilatore",
+    "binId": 2,
+    "binName": "2-plastica"
+  },
+  {
+    "name": "Verdura",
+    "binId": 2,
+    "binName": "2-plastica"
+  },
+  {
+    "name": "Vernici e solventi",
+    "binId": 2,
+    "binName": "2-plastica"
+  },
+  {
+    "name": "Vetri da serramenti o rotti o in lastre",
+    "binId": 2,
+    "binName": "2-plastica"
+  },
+  {
+    "name": "Videocassetta",
+    "binId": 2,
+    "binName": "2-plastica"
+  },
+  {
+    "name": "Videoregistratore",
+    "binId": 2,
+    "binName": "2-plastica"
+  },
+  {
+    "name": "Volantini e pieghevoli pubblicitari (non plastificati)",
+    "binId": 2,
+    "binName": "2-plastica"
+  },
+  {
+    "name": "Zanzariera",
+    "binId": 2,
+    "binName": "2-plastica"
+  },
+  {
+    "name": "Zerbino",
+    "binId": 2,
+    "binName": "2-plastica"
+  }
+
+  ]
+}
