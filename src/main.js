@@ -9,7 +9,7 @@ import 'material-design-lite/dist/material.min.css'
 import 'material-design-lite/dist/material.min.js'
 // material design di default NON ha il componente <select> in style mdl quindi uso:
 import 'mdl-select-component/mdl-selectfield.min.css'
-import 'mdl-select-component/mdl-selectfield.min.js'
+// import 'mdl-select-component/mdl-selectfield.min.js'
 
 Vue.config.productionTip = false
 

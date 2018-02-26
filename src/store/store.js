@@ -18,8 +18,17 @@ export const store = new Vuex.Store({
     getProvinces: function ({ commit, state }) {
       let provincesArr = []
       provincesArr = dbCities.map((city) => {
-        return city.provincia
+        // fix json: se fa parte di una città metropolitana cm, nel json non è indicato il nome della provincia
+        if (city.cm.nome === '') {
+          return city.provincia
+        } else {
+          return {
+            codice: city.provincia.codice,
+            nome: city.cm.nome
+          }
+        }
       })
+
       // funziona ma perché ??
       const provincesArrUnique = provincesArr.filter((obj, pos, arr) => {
         return arr.map(mapObj => mapObj['codice']).indexOf(obj['codice']) === pos
@@ -30,13 +39,16 @@ export const store = new Vuex.Store({
 
     getCities: function ({ commit, state }, provinceId) {
       let citiesArr = []
-      citiesArr = dbCities.map((city, index) => {
-        city = (({ nome, cap, provincia }) => ({ nome, cap, provincia }))(city) // lasciare in italiano come nel JSON scaricato
-        city['id'] = index
-        console.log('...city province id', city.provincia.codice)
-        if (Number(city.provincia.codice) === provinceId) {
+      citiesArr = dbCities.filter(city => {
+        if (city.provincia.codice === provinceId) {
           return city
         }
+      })
+
+      citiesArr = citiesArr.map((city, index) => {
+        city = (({ nome, cap, provincia }) => ({ nome, cap, provincia }))(city) // lasciare in italiano come nel JSON scaricato
+        city['id'] = index
+        return city
       })
 
       commit('setCities', citiesArr)

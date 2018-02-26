@@ -2,14 +2,25 @@
   <div>
     <!-- seleziona provincia -->
     <div class="mdl-selectfield mdl-js-selectfield">
-        <select id="myselect" name="myselect" class="mdl-selectfield__select">
+        <select
+          class="mdl-selectfield__select"
+          id="myselect"
+          name="myselect"
+          v-model="provinceSelected"
+          @change="getCities(provinceSelected)">
+
           <option value=""></option>
-          <option v-for="province in provinces" :key="province.codice" :value="province.codice">{{ province.nome }}</option>
+          <option
+            v-for="province in provinces"
+            :key="province.codice"
+            :value="province.codice">
+            {{ province.nome }}
+          </option>
+
         </select>
+
       <label class="mdl-selectfield__label" for="myselect">Seleziona la provincia</label>
     </div>
-
-    <button @click="getCities(100)">TAP ME</button>
 
     <!-- seleziona comune -->
     <div class="mdl-selectfield mdl-js-selectfield">
@@ -34,6 +45,7 @@ export default {
 
   data () {
     return {
+      provinceSelected: undefined
     }
   },
 
@@ -46,7 +58,8 @@ export default {
   methods: {
     getCities (provinceId) {
       this.$store.dispatch('getCities', provinceId)
-    },
+      // disabled se non trova il file corrispondente del paese
+    }
   }
 }
 </script>
