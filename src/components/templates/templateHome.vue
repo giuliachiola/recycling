@@ -8,7 +8,8 @@
   <main class="mdl-layout__content l-grid--centerX">
 
     <selectCity/>
-    <searchGarbage />
+    <garbageSearch />
+    <garbageList />
 
   </main>
 </div>
@@ -17,7 +18,8 @@
 <script>
 import layoutHeader from '@layout/layoutHeader.vue'
 import layoutDrawer from '@layout/layoutDrawer.vue'
-import searchGarbage from '@elements/searchGarbage.vue'
+import garbageSearch from '@elements/garbageSearch.vue'
+import garbageList from '@elements/garbageList.vue'
 import selectCity from '@elements/selectCity.vue'
 
 export default {
@@ -26,7 +28,8 @@ export default {
   components: {
     layoutHeader,
     layoutDrawer,
-    searchGarbage,
+    garbageSearch,
+    garbageList,
     selectCity
   }
 }

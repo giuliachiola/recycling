@@ -16,7 +16,7 @@
 import { mapState } from 'vuex'
 
 export default {
-  name: 'searchGarbage',
+  name: 'GarbageSearch',
 
   components: {
   },
