@@ -5,11 +5,16 @@
   <layoutHeader />
   <layoutDrawer />
 
-  <main class="mdl-layout__content l-grid--centerX">
+  <main class="mdl-layout__content l-main__wrapper">
 
-    <selectCity/>
-    <garbageSearch />
+    <selectCity class="l-component--centerX"/>
+
+    <garbageSearch class="l-component--centerX"/>
     <garbageList />
+
+    <!-- <button class="mdl-button mdl-js-button mdl-button--raised mdl-button--colored">
+      Cerca il tuo comune per scoprire orari e differenze con il default sopra
+    </button> -->
 
   </main>
 </div>
@@ -36,8 +41,14 @@ export default {
 </script>
 
 <style lang="scss">
-  .l-grid--centerX {
-    display: grid;
+  .l-component--centerX {
+    display: flex;
     justify-content: center;
+  }
+
+  .l-main__wrapper {
+    max-width: 95%;
+    margin: auto;
+    display: block;
   }
 </style>

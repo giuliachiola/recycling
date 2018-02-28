@@ -3,7 +3,7 @@ import Vuex from 'vuex'
 
 // https://github.com/matteocontrini/comuni-json
 import dbCities from '@root/data/db-comuni.json'
-import dbGarbageDefault from '@root/data/db-garbage-default.json'
+import dbDefault from '@root/data/db-default.json'
 
 Vue.use(Vuex)
 
@@ -13,7 +13,8 @@ export const store = new Vuex.Store({
   state: {
     provinces: [],
     cities: [],
-    garbage: []
+    garbage: [],
+    bins: []
   },
 
   actions: {
@@ -53,7 +54,8 @@ export const store = new Vuex.Store({
     },
 
     getGarbageDefault: function ({ commit, state }) {
-      commit('setGarbage', dbGarbageDefault.garbage)
+      commit('setGarbage', dbDefault.garbage)
+      commit('setBins', dbDefault.bins)
     }
   },
 
@@ -68,6 +70,10 @@ export const store = new Vuex.Store({
 
     setGarbage: (state, garbage) => {
       state.garbage = garbage
+    },
+
+    setBins: (state, bins) => {
+      state.bins = bins
     }
   },
 
