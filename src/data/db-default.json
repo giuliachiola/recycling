@@ -94,252 +94,262 @@
     ],
     "garbage": [
         {
-          "id": 0,
-            "name": "Accendini",
+            "name": "Accendino",
             "bin": 8,
-            "description": "Gli usa e getta (prodotti e realizzati dal 1973) sono in materiale plastico, costano meno e, come dice il nome, esaurita la carica del gas sono inutilizzabili e vanno gettati via. A questi si aggiungono alcuni accendini in materiale plastico, comunque dotati di valvola per la ricarica del gas e di blocco dell'innesco rimovibile per permettere la sostituzione della pietrina."
+            "description": "Lorem ipsum lorem",
+            "src": "accendino"
         },
         {
-          "id": 1,
             "name": "Acciaio",
             "bin": 9,
-            "description": ""
+            "description": "",
+            "src": "acciaio"
         },
         {
             "name": "Acciaio (piccole quantità)",
             "bin": 0,
-            "description": ""
+            "description": "",
+            "src": "acciaio"
         },
         {
-            "name": "Acquari",
+            "name": "Acquario",
             "bin": 9,
-            "description": ""
+            "description": "",
+            "src": "acquario"
         },
         {
-            "name": "Agende in carta e/o cartoncino",
+          "id": 4,
+            "name": "Agenda in carta e/o cartoncino",
             "bin": 1,
-            "description": ""
+            "description": "agenda-in-carta"
         },
         {
             "name": "Alimenti",
             "bin": 6,
-            "description": ""
+            "description": "",
+            "src": "alimenti"
         },
         {
             "name": "Alimenti scaduti (privi di contenitori)",
             "bin": 6,
-            "description": ""
+            "description": "",
+            "src": "alimenti"
         },
         {
             "name": "Alluminio",
             "bin": 2,
-            "description": "oppure id 4"
+            "description": "oppure id 4",
+            "src": "alluminio"
         },
         {
             "name": "Amianto",
             "bin": 10,
-            "description": ""
+            "description": "",
+            "src": "amianto"
         },
         {
             "name": "Antenna/Parabola",
             "bin": 9,
-            "description": ""
+            "description": "",
+            "src": "antenna-parabola"
         },
         {
-            "name": "Apparecchi elettronici (televisore, computer, stereo, radio, etc.)",
+            "name": "Apparecchi elettronici",
             "bin": 9,
-            "description": ""
+            "description": "",
+            "src": "televisore"
         },
         {
             "name": "Apriscatole",
             "bin": 8,
-            "description": ""
+            "description": "",
+            "src": "apriscatole"
         },
         {
-            "name": "Armadi e ante di mobili",
+            "name": "Armadio e ante del mobile",
             "bin": 9,
-            "description": ""
+            "description": "",
+            "src": "armadio-ante"
         },
         {
             "name": "Asciugacapelli",
             "bin": 9,
-            "description": ""
+            "description": "",
+            "src": "asciugacapelli"
         },
         {
             "name": "Aspirapolvere",
             "bin": 9,
-            "description": ""
+            "description": "",
+            "src": "aspirapolvere"
         },
         {
-            "name": "Assorbenti igienici",
+            "name": "Assorbente igienico",
             "bin": 8,
-            "description": ""
+            "description": "",
+            "src": "assorbente-igienico"
         },
         {
             "name": "Avanzi di cibo",
             "bin": 6,
-            "description": ""
+            "description": "",
+            "src": "alimenti"
         },
         {
-            "name": "Bacinelle",
+            "name": "Bacinella",
             "bin": 9,
-            "description": ""
+            "description": "",
+            "src": "bacinella"
         },
         {
-            "name": "Barattoli in vetro",
+            "name": "Barattolo in vetro",
             "bin": 3,
-            "description": ""
+            "description": "",
+            "src": "barattolo-vetro"
         },
         {
-            "name": "Barattoli plastica metallo",
+            "name": "Barattolo plastica",
             "bin": 2,
-            "description": ""
+            "description": "",
+            "src": "barattolo-plastica"
         },
         {
             "name": "Bastoncini per orecchie",
             "bin": 8,
-            "description": ""
+            "description": "",
+            "src": "bastoncini-per-orecchie"
         },
         {
-            "name": "Batterie automobili",
+            "name": "Batteria automobili",
             "bin": 9,
-            "description": ""
+            "description": "",
+            "src": "batteria-automobili"
         },
         {
-            "name": "Batterie cellulare",
+            "name": "Batteria cellulare",
             "bin": 9,
-
-            "description": ""
+            "description": "",
+            "src": "batteria-cellulare"
         },
         {
-            "name": "Batuffoli di cotone",
+            "name": "Batuffolo di cotone",
             "bin": 8,
-            "description": ""
+            "description": "",
+            "src": "batuffolo-cotone"
         },
         {
             "name": "Bicchiere di cristallo",
             "bin": 8,
-            "description": ""
+            "description": "",
+            "src": "bicchiere-cristallo"
         },
         {
             "name": "Bicchiere di plastica usa e getta",
             "bin": 2,
-            "description": ""
+            "description": "",
+            "src": "bicchiere-plastica-usa-e-getta"
         },
         {
             "name": "Bicchieri di cristallo",
             "bin": 8,
-            "description": ""
-        },
-        {
-            "name": "Bicchieri di plastica usa e getta",
-            "bin": 2,
-            "description": ""
+            "description": "",
+            "src": "bicchiere-cristallo"
         },
         {
             "name": "Bicicletta",
             "bin": 9,
-            "description": ""
+            "description": "",
+            "src": "bicicletta"
         },
         {
             "name": "Bigiotteria",
             "bin": 8,
-            "description": ""
+            "description": "",
+            "src": "bigiotteria"
         },
         {
             "name": "Biglietti autobus (magnetici)",
             "bin": 8,
-            "description": ""
+            "description": "",
+            "src": "biglietto-autobus"
         },
         {
-            "name": "Bilance ",
+            "name": "Bilancia",
             "bin": 0,
-            "description": ""
-        },
-        {
-            "name": "Biscotti",
-            "bin": 6,
-            "description": ""
+            "description": "",
+            "src": "bilancia"
         },
         {
             "name": "Bombola del gas",
             "bin": 10,
-            "description": "id rivenditori autorizzati"
+            "description": "id rivenditori autorizzati",
+            "src": "bombola-gas"
         },
         {
-            "name": "Bombolette spray alimenti, cosmetici",
+            "name": "Bomboletta spray alimenti, cosmetici",
             "bin": 2,
-            "description": ""
+            "description": "",
+            "src": "spray-alimenti"
         },
         {
-            "name": "Bombolette spray etichettate T e/o F",
+            "name": "Bomboletta spray etichettate T e/o F",
             "bin": 9,
-            "description": ""
+            "description": "",
+            "src": "spray-bomboletta"
         },
         {
             "name": "Bottiglia di plastica e flaconi",
             "bin": 2,
-            "description": ""
+            "description": "",
+            "src": "flaconi-plastica"
         },
         {
-            "name": "Bottiglia di vetro senza tappo",
-            "bin": 3,
-            "description": ""
-        },
-        {
-            "name": "Bottiglie di plastica e flaconi",
-            "bin": 2,
-            "description": ""
-        },
-        {
-            "name": "Bottiglie di vetro senza tappo",
-            "bin": 3,
-            "description": ""
-        },
-        {
-            "name": "Bottoni",
+            "name": "Bottone",
             "bin": 8,
-            "description": ""
+            "description": "",
+            "src": "bottone"
         },
         {
             "name": "Brick del latte o dei succhi di frutta",
             "bin": 1,
-            "description": ""
-        },
-        {
-            "name": "Bucce di frutta",
-            "bin": 6,
-            "description": ""
+            "description": "",
+            "src": "brick-latte"
         },
         {
             "name": "Bulloneria (viti, chiodi)",
             "bin": 9,
-            "description": ""
+            "description": "",
+            "src": "bulloneria"
         },
         {
             "name": "Busta di plastica",
             "bin": 2,
-            "description": ""
+            "description": "",
+            "src": "busta-plastica"
         },
         {
-            "name": "Buste dei surgelati (pulite)",
+            "name": "Busta dei surgelati (pulita)",
             "bin": 6,
-            "description": ""
+            "description": "",
+            "src": "busta-surgelati"
         },
         {
             "name": "Buste di carta",
             "bin": 1,
-            "description": ""
+            "description": "",
+            "src": ""
         },
         {
             "name": "Buste di nylon",
             "bin": 2,
-            "description": ""
+            "description": "",
+            "src": ""
         },
         {
             "name": "Buste di plastica",
             "bin": 2,
-            "description": ""
+            "description": "",
+            "src": ""
         },
         {
             "name": "Buste per alimenti",
@@ -1079,7 +1089,6 @@
         {
             "name": "Pacchetti di sigarette solo carta",
             "bin": 0,
-
             "description": ""
         },
         {
@@ -1110,7 +1119,6 @@
         {
             "name": "Peluche",
             "bin": 0,
-
             "description": ""
         },
         {
@@ -1406,7 +1414,7 @@
         {
             "name": "Tappi in metallo, in plastica",
             "bin": 0,
-           "description": ""
+            "description": ""
         },
         {
             "name": "Tappi in sughero",
@@ -1461,7 +1469,6 @@
         {
             "name": "Terra (in piccole quantità)",
             "bin": 0,
-
             "description": ""
         },
         {
@@ -1562,7 +1569,6 @@
         {
             "name": "Videocassetta",
             "bin": 0,
-
             "description": ""
         },
         {

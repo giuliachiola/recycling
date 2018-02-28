@@ -41,12 +41,18 @@ export default {
 
   computed: {
     cardTitleStyle () {
-      let randomColor = this.materialColors[Math.floor(Math.random() * this.materialColors.length)]
+      let binColor
+      if (this.garbage.bin === 1) {
+        binColor = 'yellow'
+      }
+      let randomColor = this.materialColor.binColor[Math.floor(Math.random() * this.materialColor.binColor.length)]
       return { backgroundColor: randomColor }
     },
 
     imageSrc () {
-      // return require(`../../assets/img/${this.garbage.id}.png`)
+      // if (this.garbage.src) {
+      //   return require(`../../assets/img/${this.garbage.src}.png`)
+      // }
     },
 
     description () {
@@ -68,19 +74,20 @@ export default {
 .c-card__title {
   padding: 0;
   position: relative;
+  overflow: hidden;
 }
 
 .c-card__titleText {
   padding: 16px;
-  max-width: calc(66% - 8px); // 2/3
+  max-width: 40%;
 }
 
 .c-card__titleImage {
   position: absolute;
   right: 16px;
-  bottom: 0;
-  max-height: 140px;
-  max-width: 33%; // 1/3
+  bottom: 8px;
+  max-height: 80%;
+  max-width: 50%;
 }
 
 .c-card__description {
