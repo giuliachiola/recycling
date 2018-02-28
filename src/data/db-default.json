@@ -4,7 +4,7 @@
         {
             "id": 1,
             "name": "Carta",
-            "color": "#9E9E9E",
+            "color": "blue",
             "mainContent": "Carta, cartone, cartoncino",
             "content-ok": "imballaggi di carta, cartone e cartoncino (scatole, buste, ecc.) , fogli, giornali, riviste, quaderni non plastificati, depliant, volantini, manifesti non plastificati cartoni per bevande in tetra pak",
             "content-ko": "non buttare la carta unta o bagnata",
@@ -13,7 +13,7 @@
         {
             "id": 2,
             "name": "Plastica",
-            "color": "#FFEB3B",
+            "color": "yellow",
             "mainContent": "Imballaggi in plastica, metallo",
             "content-ok": "bottiglie, vasetti e barattoli di plastica, buste e sacchetti di plastica, piatti e bicchieri di plastica usa e getta, lattine per bevande, vaschette e fogli in alluminio, scatolame di metallo per alimenti, tappi di plastica e di metallo, bombolette spray, gusci e barre di polistirolo",
             "content-ko": "roba che spesso si sbaglia a buttare",
@@ -22,7 +22,7 @@
         {
             "id": 3,
             "name": "Vetro",
-            "color": "#FFEB3B",
+            "color": "green",
             "mainContent": "Imballaggi in plastica, metallo",
             "content-ok": "bottiglie, vasetti e barattoli di plastica, buste e sacchetti di plastica, piatti e bicchieri di plastica usa e getta, lattine per bevande, vaschette e fogli in alluminio, scatolame di metallo per alimenti, tappi di plastica e di metallo, bombolette spray, gusci e barre di polistirolo",
             "content-ko": "roba che spesso si sbaglia a buttare",
@@ -31,25 +31,16 @@
         {
             "id": 4,
             "name": "Alluminio",
-            "color": "#FFEB3B",
+            "color": "cyan",
             "mainContent": "Imballaggi in plastica, metallo",
             "content-ok": "bottiglie, vasetti e barattoli di plastica, buste e sacchetti di plastica, piatti e bicchieri di plastica usa e getta, lattine per bevande, vaschette e fogli in alluminio, scatolame di metallo per alimenti, tappi di plastica e di metallo, bombolette spray, gusci e barre di polistirolo",
             "content-ko": "roba che spesso si sbaglia a buttare",
             "src": "default-bin-4.jpg"
         },
         {
-            "id": 5,
-            "name": "Tetrapack",
-            "color": "#FFEB3B",
-            "mainContent": "Imballaggi in plastica, metallo",
-            "content-ok": "bottiglie, vasetti e barattoli di plastica, buste e sacchetti di plastica, piatti e bicchieri di plastica usa e getta, lattine per bevande, vaschette e fogli in alluminio, scatolame di metallo per alimenti, tappi di plastica e di metallo, bombolette spray, gusci e barre di polistirolo",
-            "content-ko": "roba che spesso si sbaglia a buttare",
-            "src": "default-bin-5.jpg"
-        },
-        {
             "id": 6,
             "name": "Organico",
-            "color": "#FFEB3B",
+            "color": "brown",
             "mainContent": "Imballaggi in plastica, metallo",
             "content-ok": "bottiglie, vasetti e barattoli di plastica, buste e sacchetti di plastica, piatti e bicchieri di plastica usa e getta, lattine per bevande, vaschette e fogli in alluminio, scatolame di metallo per alimenti, tappi di plastica e di metallo, bombolette spray, gusci e barre di polistirolo",
             "content-ko": "roba che spesso si sbaglia a buttare",
@@ -58,7 +49,7 @@
         {
             "id": 7,
             "name": "Sfalci e potature",
-            "color": "#FFEB3B",
+            "color": "orange",
             "mainContent": "Imballaggi in plastica, metallo",
             "content-ok": "bottiglie, vasetti e barattoli di plastica, buste e sacchetti di plastica, piatti e bicchieri di plastica usa e getta, lattine per bevande, vaschette e fogli in alluminio, scatolame di metallo per alimenti, tappi di plastica e di metallo, bombolette spray, gusci e barre di polistirolo",
             "content-ko": "roba che spesso si sbaglia a buttare",
@@ -67,7 +58,7 @@
         {
             "id": 8,
             "name": "Indifferenziato",
-            "color": "#FFEB3B",
+            "color": "gray",
             "mainContent": "Imballaggi in plastica, metallo",
             "content-ok": "bottiglie, vasetti e barattoli di plastica, buste e sacchetti di plastica, piatti e bicchieri di plastica usa e getta, lattine per bevande, vaschette e fogli in alluminio, scatolame di metallo per alimenti, tappi di plastica e di metallo, bombolette spray, gusci e barre di polistirolo",
             "content-ko": "roba che spesso si sbaglia a buttare",
@@ -76,7 +67,7 @@
         {
             "id": 9,
             "name": "Materiali RAEE",
-            "color": "#FFEB3B",
+            "color": "red",
             "mainContent": "Imballaggi in plastica, metallo",
             "content-ok": "bottiglie, vasetti e barattoli di plastica, buste e sacchetti di plastica, piatti e bicchieri di plastica usa e getta, lattine per bevande, vaschette e fogli in alluminio, scatolame di metallo per alimenti, tappi di plastica e di metallo, bombolette spray, gusci e barre di polistirolo",
             "content-ko": "roba che spesso si sbaglia a buttare",
@@ -85,7 +76,7 @@
         {
             "id": 10,
             "name": "Rifiuti speciali",
-            "color": "#FFEB3B",
+            "color": "pink",
             "mainContent": "sdgdfg",
             "content-ok": "sdgadfg  plastica, piatti e bicchieri di plastica usa e getta, lattine per bevande, vaschette e fogli in alluminio, scatolame di metallo per alimenti, tappi di plastica e di metallo, bombolette spray, gusci e barre di polistirolo",
             "content-ko": "roba che spesso si sbaglia a buttare",
@@ -94,10 +85,16 @@
     ],
     "garbage": [
         {
-            "name": "Accendino",
-            "bin": 8,
-            "description": "Lorem ipsum lorem",
-            "src": "accendino"
+            "name": "TetraPack",
+            "bin": 1,
+            "description": "DIPENDE da comune a comune",
+            "src": "tetrapack"
+        },
+        {
+          "name": "Accendino",
+          "bin": 8,
+          "description": "",
+          "src": "accendino"
         },
         {
             "name": "Acciaio",
@@ -121,7 +118,8 @@
           "id": 4,
             "name": "Agenda in carta e/o cartoncino",
             "bin": 1,
-            "description": "agenda-in-carta"
+            "description": "",
+            "src": "agenda-in-carta"
         },
         {
             "name": "Alimenti",
@@ -137,8 +135,8 @@
         },
         {
             "name": "Alluminio",
-            "bin": 2,
-            "description": "oppure id 4",
+            "bin": 4,
+            "description": "oppure NELLA PLASTICA",
             "src": "alluminio"
         },
         {
