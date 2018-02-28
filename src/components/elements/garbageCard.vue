@@ -1,6 +1,6 @@
 <template>
     <!-- Square card -->
-    <div class="demo-card-square mdl-card mdl-shadow--2dp">
+    <div class="c-card demo-card-square mdl-card mdl-shadow--2dp">
       <div class="mdl-card__title mdl-card--expand c-card__title" :style="cardColor">
         <h2 class="mdl-card__title-text c-card__titleText">{{ garbage.name }}</h2>
         <img :src="imageSrc" class="c-card__titleImage" alt="">
@@ -9,7 +9,7 @@
         <p>{{ garbage.description }}</p>
         <a
           href="#"
-          class="mdl-button mdl-js-button mdl-button--raised mdl-button--colored c-card__descriptionButton"
+          class="mdl-button mdl-button--raised c-card__descriptionButton"
           :style="cardColor">
           {{ garbageBinName }}
         </a>
@@ -23,7 +23,7 @@
 </template>
 
 <script>
-import { amber, green, indigo, cyan, brown, orange, gray, pink, red } from '@root/data/variables.js'
+import { amber, green, indigo, cyan, brown, gray, pink, red } from '@root/data/variables.js'
 
 export default {
   name: 'garbageCard',
@@ -68,7 +68,7 @@ export default {
 
     imageSrc () {
       if (this.garbage.src) {
-        return require(`../../assets/img/${this.garbage.src}.png`)
+        return `static/img/${this.garbage.src}.png`
       }
     },
 
@@ -121,9 +121,10 @@ export default {
   position: relative;
 }
 
-.c-card__descriptionButton {
+.c-card .c-card__descriptionButton {
   position: absolute;
   bottom: 16px;
   right: 16px;
+  color: white;
 }
 </style>
