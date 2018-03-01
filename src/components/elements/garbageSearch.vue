@@ -4,8 +4,13 @@
     <!-- Textfield with Floating Label -->
     <form action="#">
       <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
-        <input class="mdl-textfield__input" type="text" id="sample3">
-        <label class="mdl-textfield__label" for="sample3">Cerca riufiuto</label>
+        <input
+          class="mdl-textfield__input"
+          type="text"
+          id="keywordField"
+          v-model="uiKeywordField"
+          @input="updateUiKeyword">
+        <label class="mdl-textfield__label" for="keywordField">Cerca riufiuto</label>
       </div>
       <i class="material-icons">search</i>
     </form>
@@ -21,6 +26,12 @@ export default {
   components: {
   },
 
+  data () {
+    return {
+      uiKeywordField: this.uiKeyword
+    }
+  },
+
   computed: {
     garbageList () {
       return this.garbage
@@ -29,6 +40,18 @@ export default {
     ...mapState([
       'garbage'
     ])
+  },
+
+  watch: {
+    uiKeyword () {
+      this.uiKeywordField = this.uiKeyword
+    }
+  },
+
+  methods: {
+    updateUiKeyword () {
+      this.$emit('update:uiKeyword', this.uiKeywordField)
+    }
   }
 }
 </script>

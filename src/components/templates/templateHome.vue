@@ -9,9 +9,7 @@
 
     <selectCity class="l-component--centerX"/>
 
-    <garbageSearch class="l-component--centerX"/>
-    <garbageList />
-
+    <garbage-grid/>
     <!-- <button class="mdl-button mdl-js-button mdl-button--raised mdl-button--colored">
       Cerca il tuo comune per scoprire orari e differenze con il default sopra
     </button> -->
@@ -23,19 +21,27 @@
 <script>
 import layoutHeader from '@layout/layoutHeader.vue'
 import layoutDrawer from '@layout/layoutDrawer.vue'
-import garbageSearch from '@elements/garbageSearch.vue'
-import garbageList from '@elements/garbageList.vue'
+
+import garbageGrid from '@elements/garbageGrid.vue'
 import selectCity from '@elements/selectCity.vue'
 
 export default {
-  name: 'TemplateHome',
+  name: 'templateHome',
 
   components: {
     layoutHeader,
     layoutDrawer,
-    garbageSearch,
-    garbageList,
+    garbageGrid,
     selectCity
+  },
+
+  data () {
+    return {
+    }
+  },
+
+  computed: {
+
   }
 }
 </script>

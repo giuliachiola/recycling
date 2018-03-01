@@ -7,12 +7,11 @@
       </div>
       <div class="mdl-card__supporting-text c-card__description">
         <p>{{ garbage.description }}</p>
-        <a
-          href="#"
+        <router-link :to="{ name: 'templateBin', params: { search: garbageBinLink } }"
           class="mdl-button mdl-button--raised c-card__descriptionButton"
           :style="cardColor">
           {{ garbageBinName }}
-        </a>
+        </router-link>
       </div>
       <div class="mdl-card__actions mdl-card--border">
         <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect">
@@ -73,7 +72,7 @@ export default {
     },
 
     garbageBinName () {
-      if (this.garbage.bin === 0) { return 'n/a' } // CARTA
+      if (this.garbage.bin === 0) { return 'n/a' } // NON DISPONIBILE
       if (this.garbage.bin === 1) { return 'Carta' } // CARTA
       if (this.garbage.bin === 2) { return 'Plastica' } // PLASTICA
       if (this.garbage.bin === 3) { return 'Vetro' } // VETRO
@@ -83,6 +82,19 @@ export default {
       if (this.garbage.bin === 8) { return 'Indifferenziato' } // INDIFFERENZIATO
       if (this.garbage.bin === 9) { return 'RAEE' } // RAEE
       if (this.garbage.bin === 10) { return 'Rifiuti speciali' } // RIFIUTI SPECIALI
+    },
+
+    garbageBinLink () {
+      if (this.garbage.bin === 0) { return '#' } // NON DISPONIBILE
+      if (this.garbage.bin === 1) { return 'carta' } // CARTA
+      if (this.garbage.bin === 2) { return 'plastica' } // PLASTICA
+      if (this.garbage.bin === 3) { return 'vetro' } // VETRO
+      if (this.garbage.bin === 4) { return 'alluminio' } // ALLUMINIO
+      if (this.garbage.bin === 6) { return 'organico' } // ORGANICO
+      if (this.garbage.bin === 7) { return 'sfalci-e-potature' } // POTATURE
+      if (this.garbage.bin === 8) { return 'indifferenziato' } // INDIFFERENZIATO
+      if (this.garbage.bin === 9) { return 'raee' } // RAEE
+      if (this.garbage.bin === 10) { return 'rifiuti-speciali' } // RIFIUTI SPECIALI
     }
   }
 }
@@ -106,6 +118,7 @@ export default {
 .c-card__titleText {
   padding: 16px;
   max-width: 40%;
+  word-break: break-word;
 }
 
 .c-card__titleImage {

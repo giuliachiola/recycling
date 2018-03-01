@@ -1,15 +1,13 @@
 <template>
   <div class="c-garbageList">
     <garbage-card
-      v-for="g in garbage"
+      v-for="g in filteredList"
       :key="g.name"
       :garbage="g"/>
   </div>
 </template>
 
 <script>
-import { mapState } from 'vuex'
-
 import garbageCard from '@elements/garbageCard.vue'
 
 export default {
@@ -19,10 +17,14 @@ export default {
     garbageCard
   },
 
+  props: {
+    filteredList: {
+      type: Array,
+      default: () => []
+    }
+  },
+
   computed: {
-    ...mapState([
-      'garbage'
-    ])
   }
 }
 </script>
