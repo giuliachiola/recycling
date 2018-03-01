@@ -44,7 +44,7 @@
             "mainContent": "Imballaggi in plastica, metallo",
             "content-ok": "bottiglie, vasetti e barattoli di plastica, buste e sacchetti di plastica, piatti e bicchieri di plastica usa e getta, lattine per bevande, vaschette e fogli in alluminio, scatolame di metallo per alimenti, tappi di plastica e di metallo, bombolette spray, gusci e barre di polistirolo",
             "content-ko": "roba che spesso si sbaglia a buttare",
-            "src": "bin-5-organico"
+            "src": "bin-6-organico"
         },
         {
             "id": 7,
@@ -62,7 +62,7 @@
             "mainContent": "Imballaggi in plastica, metallo",
             "content-ok": "bottiglie, vasetti e barattoli di plastica, buste e sacchetti di plastica, piatti e bicchieri di plastica usa e getta, lattine per bevande, vaschette e fogli in alluminio, scatolame di metallo per alimenti, tappi di plastica e di metallo, bombolette spray, gusci e barre di polistirolo",
             "content-ko": "roba che spesso si sbaglia a buttare",
-            "src": "bin-8-indifferenziata"
+            "src": "bin-8-indifferenziato"
         },
         {
             "id": 9,
