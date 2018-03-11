@@ -103,12 +103,6 @@
             "src": "acciaio"
         },
         {
-            "name": "Acciaio (piccole quantità)",
-            "bin": 0,
-            "description": "",
-            "src": "acciaio"
-        },
-        {
             "name": "Acquario",
             "bin": 9,
             "description": "",
@@ -124,19 +118,13 @@
         {
             "name": "Alimenti",
             "bin": 6,
-            "description": "",
-            "src": "alimenti"
-        },
-        {
-            "name": "Alimenti scaduti (privi di contenitori)",
-            "bin": 6,
-            "description": "",
+            "description": "Gli alimenti devono essere privi di imballaggi. Si possono buttare anche alimenti scaduti.",
             "src": "alimenti"
         },
         {
             "name": "Alluminio",
             "bin": 4,
-            "description": "oppure NELLA PLASTICA",
+            "description": "oppure nella plastica",
             "src": "alluminio"
         },
         {
@@ -170,7 +158,8 @@
             "src": "armadio-ante"
         },
         {
-            "name": "Asciugacapelli",
+            "name": "Phon",
+            "synonyms": "Asciugacapelli",
             "bin": 9,
             "description": "",
             "src": "asciugacapelli"
@@ -213,15 +202,16 @@
         },
         {
             "name": "Bastoncini per orecchie",
+            "synonyms": "CottonFioc",
             "bin": 8,
             "description": "",
             "src": "bastoncini-per-orecchie"
         },
         {
-            "name": "Batteria automobili",
+            "name": "Batteria automobile",
             "bin": 9,
             "description": "",
-            "src": "batteria-automobili"
+            "src": "batteria-automobile"
         },
         {
             "name": "Batteria cellulare",
@@ -246,12 +236,6 @@
             "bin": 2,
             "description": "",
             "src": "bicchiere-plastica-usa-e-getta"
-        },
-        {
-            "name": "Bicchieri di cristallo",
-            "bin": 8,
-            "description": "",
-            "src": "bicchiere-cristallo"
         },
         {
             "name": "Bicicletta",
@@ -284,19 +268,19 @@
             "src": "bombola-gas"
         },
         {
-            "name": "Bomboletta spray alimenti, cosmetici",
+            "name": "Bomboletta spray alimenti",
             "bin": 2,
             "description": "",
             "src": "spray-alimenti"
         },
         {
-            "name": "Bomboletta spray etichettate T e/o F",
+            "name": "Bomboletta spray T e/o F",
             "bin": 9,
             "description": "",
             "src": "spray-bomboletta"
         },
         {
-            "name": "Bottiglia di plastica e flaconi",
+            "name": "Flacone di plastica",
             "bin": 2,
             "description": "",
             "src": "flaconi-plastica"
@@ -308,7 +292,8 @@
             "src": "bottone"
         },
         {
-            "name": "Brick del latte o dei succhi di frutta",
+            "name": "Brick del latte",
+            "synonyms": "succo di frutta, contenitore",
             "bin": 1,
             "description": "",
             "src": "brick-latte"
@@ -326,9 +311,9 @@
             "src": "busta-plastica"
         },
         {
-            "name": "Busta dei surgelati (pulita)",
+            "name": "Busta dei surgelati",
             "bin": 6,
-            "description": "",
+            "description": "La busta dev'essere pulita.",
             "src": "busta-surgelati"
         },
         {
@@ -339,12 +324,6 @@
         },
         {
             "name": "Buste di nylon",
-            "bin": 2,
-            "description": "",
-            "src": ""
-        },
-        {
-            "name": "Buste di plastica",
             "bin": 2,
             "description": "",
             "src": ""
@@ -380,7 +359,7 @@
             "description": ""
         },
         {
-            "name": "Carrozzine e passeggini",
+            "name": "Carrozzina, passeggino",
             "bin": 9,
             "description": ""
         },
@@ -395,7 +374,8 @@
             "description": ""
         },
         {
-            "name": "Carta chimica, carta per fax, carta copiativa",
+            "name": "Carta chimica, carta copiativa",
+            "synonyms": "fax",
             "bin": 8,
             "description": ""
         },
@@ -425,7 +405,8 @@
             "description": ""
         },
         {
-            "name": "Carta plastificata per alimenti (carne, formaggi o affettati)",
+            "name": "Carta plastificata per alimenti",
+            "synonyms": "cellophan",
             "bin": 8,
             "description": ""
         },
@@ -455,11 +436,6 @@
             "description": ""
         },
         {
-            "name": "Cartone per bevande (es. in tetra pak)",
-            "bin": 1,
-            "description": ""
-        },
-        {
             "name": "Cartoni ondulati",
             "bin": 1,
             "description": ""
@@ -470,72 +446,52 @@
             "description": ""
         },
         {
-            "name": "Caschi per moto e scooter",
+            "name": "Casco per moto e bicicletta",
             "bin": 9,
             "description": ""
         },
         {
-            "name": "Casco per moto o bicicletta",
-            "bin": 9,
-            "description": ""
-        },
-        {
-            "name": "Cassette audio e video",
+            "name": "Cassetta audio e video",
             "bin": 8,
-            "description": ""
+            "description": "Se in <strong>grandi quantità</strong>bin 9"
         },
         {
-            "name": "Cassette audio e video in grande quantità",
-            "bin": 9,
-            "description": ""
-        },
-        {
-            "name": "Cassette da frutta in cartone (a pezzi)",
+            "name": "Cassetta da frutta in cartone",
             "bin": 1,
-            "description": ""
+            "description": "Le cassette devono esser fatte a pezzi."
         },
         {
-            "name": "Cassette da frutta in legno",
+            "name": "Cassetta da frutta in legno",
             "bin": 9,
             "description": ""
         },
         {
-            "name": "Cassette da frutta in plastica",
+            "name": "Cassetta da frutta in plastica",
             "bin": 2,
             "description": ""
         },
         {
-            "name": "Cassette sporche, unte",
+            "name": "Cassetta sporca",
             "bin": 9,
             "description": ""
         },
         {
-            "name": "Cassetti",
+            "name": "Cassetto",
             "bin": 9,
             "description": ""
         },
         {
-            "name": "Cavi (grandi quantità)",
-            "bin": 0,
-            "description": ""
-        },
-        {
-            "name": "Cavi elettrici",
+            "name": "Cavo elettrico",
             "bin": 8,
             "description": ""
         },
         {
-            "name": "CD (grandi quantità)",
-            "bin": 0,
-            "description": ""
-        },
-        {
-            "name": "CD (inclusa custodia in plastica rigida)",
+            "name": "CD",
             "bin": 8,
-            "description": ""
+            "description": "Inclusa custodia in plastica rigida."
         },
         {
-            "name": "Cellulari",
+            "name": "Cellulare",
             "bin": 9,
             "description": ""
         },
@@ -550,12 +506,12 @@
             "description": ""
         },
         {
-            "name": "Ceramica in cocci (piccole quantità)",
+            "name": "Ceramica in cocci",
             "bin": 0,
             "description": ""
         },
         {
-            "name": "Cerotti",
+            "name": "Cerotto",
             "bin": 8,
             "description": ""
         },
@@ -565,17 +521,12 @@
             "description": ""
         },
         {
-            "name": "Cialde di caffè",
+            "name": "Cialda di caffè",
             "bin": 8,
             "description": ""
         },
         {
-            "name": "Cibo (avanzi sia crudi che cotti)",
-            "bin": 0,
-            "description": ""
-        },
-        {
-            "name": "Colla (grandi quantità)",
+            "name": "Colla",
             "bin": 0,
             "description": ""
         },
@@ -585,77 +536,64 @@
             "description": ""
         },
         {
-            "name": "Computer e componenti (mouse...)",
+            "name": "Computer e componenti",
             "bin": 0,
             "description": ""
         },
         {
-            "name": "Condizionatori d'aria",
+            "name": "Condizionatore",
             "bin": 0,
             "description": ""
         },
         {
-            "name": "Confezione del latte o dei succhi di frutta",
+            "name": "Confezione di lenti a contatto",
             "bin": 0,
             "description": ""
         },
         {
-            "name": "Confezione di lenti a contatto usa e getta vuota",
+            "name": "Confezione in cartone delle uova",
             "bin": 0,
             "description": ""
         },
         {
-            "name": "Confezione in cartone delle uova    ",
+            "name": "Confezione in plastica delle uova",
             "bin": 0,
             "description": ""
         },
         {
-            "name": "Confezione in plastica delle uova    ",
+            "name": "Confezione del caffè",
             "bin": 0,
             "description": ""
         },
         {
-            "name": "Confezioni di caffè",
+            "name": "Confezione in plastica di pastiglie vuote",
+            "synonyms": "blister",
+            "bin": 0,
+            "description": "Il contenitore dev'essere senza il foglio di alluminio."
+        },
+        {
+            "name": "Contenitore etichettato T e/o F",
             "bin": 0,
             "description": ""
         },
         {
-            "name": "Confezioni in carta (pasta, sale...)",
+            "name": "Contenitore detersivi",
             "bin": 0,
             "description": ""
         },
         {
-            "name": "Confezioni in plastica di pastiglie vuote",
+            "name": "Contenitore yogurt",
             "bin": 0,
             "description": ""
         },
         {
-            "name": "Contenitori di prodotti per l'igiene personale",
+            "name": "Coperchio del barattolo",
             "bin": 0,
             "description": ""
         },
         {
-            "name": "Contenitori etichettati T e/o F",
-            "bin": 0,
-            "description": ""
-        },
-        {
-            "name": "Contenitori in plastica dei detersivi",
-            "bin": 0,
-            "description": ""
-        },
-        {
-            "name": "Contenitori yogurt ",
-            "bin": 0,
-            "description": ""
-        },
-        {
-            "name": "Coperchi dei barattoli per alimenti",
-            "bin": 0,
-            "description": ""
-        },
-        {
-            "name": "Coperchi vasetti yogurt in carta stagnata",
+            "name": "Coperchio vasetto yogurt",
+            "synonyms": "carta stagnata",
             "bin": 0,
             "description": ""
         },
@@ -665,37 +603,22 @@
             "description": ""
         },
         {
-            "name": "Cornici",
+            "name": "Cornice",
             "bin": 0,
             "description": ""
         },
         {
-            "name": "Cosmetici",
+            "name": "Cosmetici, trucchi",
             "bin": 0,
             "description": ""
         },
         {
-            "name": "Credenze",
+            "name": "Cristallo",
             "bin": 0,
-            "description": ""
+            "description": "In grandi quantità"
         },
         {
-            "name": "Cristallo (bicchieri, caraffe e oggetti vari)",
-            "bin": 0,
-            "description": ""
-        },
-        {
-            "name": "Cristallo (in grandi quantità)",
-            "bin": 0,
-            "description": ""
-        },
-        {
-            "name": "Cristallo (in piccole quantità)",
-            "bin": 0,
-            "description": ""
-        },
-        {
-            "name": "Damigiane in vetro",
+            "name": "Damigiana",
             "bin": 0,
             "description": ""
         },
@@ -705,19 +628,14 @@
             "description": ""
         },
         {
-            "name": "Divani",
+            "name": "Divano",
             "bin": 0,
             "description": ""
         },
         {
-            "name": "DVD (grandi quantità)",
+            "name": "DVD",
             "bin": 0,
-            "description": ""
-        },
-        {
-            "name": "DVD (inclusa custodia in plastica rigida)",
-            "bin": 0,
-            "description": ""
+            "description": "Inclusa custodia in plastica rigida."
         },
         {
             "name": "Elettrodomestici grandi",
@@ -740,17 +658,12 @@
             "description": ""
         },
         {
-            "name": "Faldoni in cartone (senza anelli)",
+            "name": "Faldone in cartone",
             "bin": 0,
-            "description": ""
+            "description": "E' necessario rimuovere gli anelli."
         },
         {
-            "name": "Farmaci scaduti",
-            "bin": 0,
-            "description": ""
-        },
-        {
-            "name": "Fasciatoio",
+            "name": "Farmaco scaduto",
             "bin": 0,
             "description": ""
         },
@@ -760,27 +673,12 @@
             "description": ""
         },
         {
-            "name": "Fiasco di vetro (senza rivestimento)",
+            "name": "Filo elettrico",
             "bin": 0,
             "description": ""
         },
         {
-            "name": "Fili elettrici",
-            "bin": 0,
-            "description": ""
-        },
-        {
-            "name": "Flaconi di detersivi in plastica",
-            "bin": 0,
-            "description": ""
-        },
-        {
-            "name": "Flaconi di sciroppo",
-            "bin": 0,
-            "description": ""
-        },
-        {
-            "name": "Flaconi di shampoo e bagnoschiuma",
+            "name": "Flacone di shampoo e bagnoschiuma",
             "bin": 0,
             "description": ""
         },
@@ -790,77 +688,47 @@
             "description": ""
         },
         {
-            "name": "Foglie e fiori",
+            "name": "Foglie, fiori, erba",
+            "bin": 0,
+            "description": "grandi quantità"
+        },
+        {
+            "name": "Fondo di té, caffé, camomilla",
             "bin": 0,
             "description": ""
         },
         {
-            "name": "Foglie, fiori, erba (grandi quantità)",
+            "name": "Forbici",
             "bin": 0,
             "description": ""
         },
         {
-            "name": "Fondi di té, caffé, camomilla",
+            "name": "Forchetta di plastica",
             "bin": 0,
             "description": ""
         },
         {
-            "name": "Forbici (piccole quantità)",
+            "name": "Fotografia e pellicola fotografica",
             "bin": 0,
             "description": ""
         },
         {
-            "name": "Forchette di plastica",
+            "name": "Giocattolo",
             "bin": 0,
             "description": ""
         },
         {
-            "name": "Formaggi",
+            "name": "Giocattolo grande e/o elettrico",
             "bin": 0,
             "description": ""
         },
         {
-            "name": "Formica",
+            "name": "Giornale, rivista",
             "bin": 0,
             "description": ""
         },
         {
-            "name": "Forni (elettrici, microonde)",
-            "bin": 0,
-            "description": ""
-        },
-        {
-            "name": "Fotografie e pellicole fotografiche",
-            "bin": 0,
-            "description": ""
-        },
-        {
-            "name": "Frigorifero",
-            "bin": 0,
-            "description": ""
-        },
-        {
-            "name": "Frutta",
-            "bin": 0,
-            "description": ""
-        },
-        {
-            "name": "Giocattoli (bambole, palloni, macchinine)",
-            "bin": 0,
-            "description": ""
-        },
-        {
-            "name": "Giocattoli grandi e/o elettrici",
-            "bin": 0,
-            "description": ""
-        },
-        {
-            "name": "Giornali e riviste",
-            "bin": 0,
-            "description": ""
-        },
-        {
-            "name": "Girelli e culle",
+            "name": "Girello, culla",
             "bin": 0,
             "description": ""
         },
@@ -905,7 +773,7 @@
             "description": ""
         },
         {
-            "name": "Insetticidi (contenitori di)",
+            "name": "Contenitori di insetticidi",
             "bin": 0,
             "description": ""
         },
@@ -940,17 +808,7 @@
             "description": ""
         },
         {
-            "name": "Lavatrice e lavastoviglie",
-            "bin": 0,
-            "description": ""
-        },
-        {
             "name": "Legno da potatura",
-            "bin": 0,
-            "description": ""
-        },
-        {
-            "name": "Letti",
             "bin": 0,
             "description": ""
         },
@@ -1075,32 +933,12 @@
             "description": ""
         },
         {
-            "name": "Ottone (piccole quantità)",
-            "bin": 0,
-            "description": ""
-        },
-        {
             "name": "Ovatta",
             "bin": 0,
             "description": ""
         },
         {
-            "name": "Pacchetti di sigarette solo carta",
-            "bin": 0,
-            "description": ""
-        },
-        {
-            "name": "Pane",
-            "bin": 0,
-            "description": ""
-        },
-        {
             "name": "Pannolini",
-            "bin": 0,
-            "description": ""
-        },
-        {
-            "name": "Pasta",
             "bin": 0,
             "description": ""
         },
@@ -1135,16 +973,6 @@
             "description": ""
         },
         {
-            "name": "Pesce",
-            "bin": 0,
-            "description": ""
-        },
-        {
-            "name": "Phon",
-            "bin": 0,
-            "description": ""
-        },
-        {
             "name": "Piatto di plastica usa e getta",
             "bin": 0,
             "description": ""
@@ -1160,7 +988,7 @@
             "description": ""
         },
         {
-            "name": "Pneumatici/Gomme auto",
+            "name": "Pneumatici, gomme auto",
             "bin": 0,
             "description": ""
         },
@@ -1185,7 +1013,7 @@
             "description": ""
         },
         {
-            "name": "Potature di piante (piccole quantità)",
+            "name": "Potature di piante",
             "bin": 0,
             "description": ""
         },
@@ -1205,12 +1033,7 @@
             "description": ""
         },
         {
-            "name": "Ramaglie e residui da giardino",
-            "bin": 0,
-            "description": ""
-        },
-        {
-            "name": "Rami (grandi quantità)",
+            "name": "Rami",
             "bin": 0,
             "description": ""
         },
@@ -1231,11 +1054,6 @@
         },
         {
             "name": "Retina frutta ",
-            "bin": 0,
-            "description": ""
-        },
-        {
-            "name": "Riviste",
             "bin": 0,
             "description": ""
         },
@@ -1265,7 +1083,7 @@
             "description": ""
         },
         {
-            "name": "Sacchetti in MATER-BI (compostabile)",
+            "name": "Sacchetti in materiale bio-compostabile",
             "bin": 0,
             "description": ""
         },
@@ -1286,11 +1104,6 @@
         },
         {
             "name": "Scaffali",
-            "bin": 0,
-            "description": ""
-        },
-        {
-            "name": "Scarti di cibo (crudi o cotti)",
             "bin": 0,
             "description": ""
         },
@@ -1330,14 +1143,14 @@
             "description": ""
         },
         {
-            "name": "Sfalci da giardini/prato/potature",
+            "name": "Sfalci da giardini, prato, potature",
             "bin": 0,
             "description": ""
         },
         {
-            "name": "Siringhe (con ago ben ricoperto)",
+            "name": "Siringhe",
             "bin": 0,
-            "description": ""
+            "description": "(con ago ben ricoperto)"
         },
         {
             "name": "Smacchiatori e solventi",
@@ -1375,7 +1188,7 @@
             "description": ""
         },
         {
-            "name": "Stampelle appendiabiti",
+            "name": "Stampelle, grucce appendiabiti",
             "bin": 0,
             "description": ""
         },
@@ -1430,17 +1243,7 @@
             "description": ""
         },
         {
-            "name": "Té e tisane",
-            "bin": 0,
-            "description": ""
-        },
-        {
             "name": "Telecomando",
-            "bin": 0,
-            "description": ""
-        },
-        {
-            "name": "Telefonini",
             "bin": 0,
             "description": ""
         },
@@ -1465,22 +1268,12 @@
             "description": ""
         },
         {
-            "name": "Terra (in piccole quantità)",
-            "bin": 0,
-            "description": ""
-        },
-        {
-            "name": "Tetra pak",
+            "name": "Terra",
             "bin": 0,
             "description": ""
         },
         {
             "name": "Toner, cartucce stampanti e fotocopiatrici",
-            "bin": 0,
-            "description": ""
-        },
-        {
-            "name": "Torsoli di frutta",
             "bin": 0,
             "description": ""
         },
@@ -1520,17 +1313,7 @@
             "description": ""
         },
         {
-            "name": "Vaschette in vetro per alimenti",
-            "bin": 0,
-            "description": ""
-        },
-        {
             "name": "Vaschette per alimenti",
-            "bin": 0,
-            "description": ""
-        },
-        {
-            "name": "Vasetti dello yogurt",
             "bin": 0,
             "description": ""
         },
@@ -1546,11 +1329,6 @@
         },
         {
             "name": "Ventilatore",
-            "bin": 0,
-            "description": ""
-        },
-        {
-            "name": "Verdura",
             "bin": 0,
             "description": ""
         },

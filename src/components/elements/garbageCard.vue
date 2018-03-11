@@ -6,7 +6,7 @@
         <img :src="imageSrc" class="c-card__titleImage" alt="">
       </div>
       <div class="mdl-card__supporting-text c-card__description">
-        <p>{{ garbage.description }}</p>
+        <p v-html="garbage.description"></p>
         <router-link :to="{ name: 'templateBin', params: { search: garbageBinLink } }"
           class="mdl-button mdl-button--raised c-card__descriptionButton"
           :style="cardColor">
@@ -130,7 +130,7 @@ export default {
 }
 
 .c-card__description {
-  height: 5em;
+  min-height: 7em;
   position: relative;
 }
 

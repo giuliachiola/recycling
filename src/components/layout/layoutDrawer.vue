@@ -3,16 +3,19 @@
     <span class="mdl-layout-title">Materiali</span>
     <nav class="mdl-navigation">
       <router-link
-        v-for="navLink in navLinks"
-        :key="navLink.linkText"
-        :to="navLink.linkTo"
+        v-for="bin in bins"
+        :key="bin.name"
+        :to="{ name: 'templateBin', params: { search: bin.name.toLowerCase() } }"
         class="mdl-navigation__link">
-        {{ navLink.linkText }}</router-link>
+        {{ bin.name }}
+      </router-link>
     </nav>
   </div>
 </template>
 
 <script>
+import { mapState } from 'vuex'
+
 export default {
   name: 'LayoutDrawer',
 
@@ -21,48 +24,13 @@ export default {
 
   data () {
     return {
-      navLinks: [
-        {
-          linkTo: '#',
-          linkText: 'Carta'
-        },
-        {
-          linkTo: '#',
-          linkText: 'Plastica'
-        },
-        {
-          linkTo: '#',
-          linkText: 'Vetro'
-        },
-        {
-          linkTo: '#',
-          linkText: 'Alluminio'
-        },
-        {
-          linkTo: '#',
-          linkText: 'Tetrapack'
-        },
-        {
-          linkTo: '#',
-          linkText: 'Organico'
-        },
-        {
-          linkTo: '#',
-          linkText: 'Sfalci e potature'
-        },
-        {
-          linkTo: '#',
-          linkText: 'Indifferenziato'
-        },
-        {
-          linkTo: '#',
-          linkText: 'Materiali RAEE'
-        }
-      ]
     }
   },
 
   computed: {
+    ...mapState([
+      'bins'
+    ])
   }
 }
 </script>
