@@ -53,7 +53,7 @@ export default {
   }
 
   .l-main__wrapper {
-    max-width: 95%;
+    width: 95%;
     margin: auto;
     display: block;
   }
