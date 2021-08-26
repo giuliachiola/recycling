@@ -70,29 +70,29 @@
 
 <script>
 export default {
-  name: "LayoutHeader",
+  name: 'LayoutHeader',
 
   components: {},
 
-  data() {
+  data () {
     return {
       navLinks: [
         {
-          linkTo: "#",
-          linkText: "Link utili"
+          linkTo: '#',
+          linkText: 'Link utili'
         },
         {
-          linkTo: "#",
-          linkText: "Contribuisci"
+          linkTo: '#',
+          linkText: 'Contribuisci'
         },
         {
-          linkTo: "#",
-          linkText: "Contatti"
+          linkTo: '#',
+          linkText: 'Contatti'
         }
       ]
-    };
+    }
   }
-};
+}
 </script>
 
 <style lang="scss"></style>
