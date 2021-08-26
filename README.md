@@ -1,21 +1,44 @@
-# Dove si butta
+# Recycling
 
-> A Vue.js project
+This project indicates where the waste is to be disposed of, based on the municipality.
 
-## Build Setup
+| \                | \        |
+|------------------|----------|
+| Deploy status    | \        |
+| Deploy preview   | \        |
+| Project typology | Personal |
 
-``` bash
+![project preview](docs/project-preview.png)
+
+## 🔥 Tech stack
+
+| Purpose       | Technology   |
+|:--------------|:-------------|
+| Templating    | Vue          |
+| Styling       | SCSS + BEMIT |
+| Documentation | Markdown     |
+
+## 🌊 Run development mode
+
+```shell
 # install dependencies
-npm install
+npm i
 
 # serve with hot reload at localhost:8080
 npm run dev
-
-# build for production with minification
-npm run build
-
-# build for production and view the bundle analyzer report
-npm run build --report
 ```
 
-For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
+## 🧳 Build setup
+
+```shell
+# build for production
+npm run build
+```
+
+### 🌿 Branches
+
+| Branch name | Use          |
+|:------------|:-------------|
+| `main`      | production   |
+| `develop`   | main feature |
+
