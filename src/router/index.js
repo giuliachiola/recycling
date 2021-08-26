@@ -8,8 +8,21 @@ import templateBin from '@templates/templateBin'
 Vue.use(Router)
 
 export default new Router({
-  routes: [
-    { path: '/', name: 'templateHome', component: templateHome, meta: { title: 'Dove lo butto | Home' } },
-    { path: '/bin/:search', name: 'templateBin', component: templateBin, meta: { title: 'Dove lo butto | Materiale' } }
+  routes: [{
+      path: '/',
+      name: 'templateHome',
+      component: templateHome,
+      meta: {
+        title: 'Recycling | Home'
+      }
+    },
+    {
+      path: '/bin/:search',
+      name: 'templateBin',
+      component: templateBin,
+      meta: {
+        title: 'Recycling | Materiale'
+      }
+    }
   ]
 })
